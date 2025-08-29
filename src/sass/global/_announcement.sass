@@ -1,0 +1,56 @@
+@use '../base/index' as *
+
+.announcement
+	padding: 25px 0
+	min-height: 150px
+	&__header
+		font-weight: 900
+		color: $thirdColor
+		font-size: 64px
+		filter: brightness(125%)
+		text-transform: uppercase
+		&_warrior
+			color: $warriorColor
+		&_druid
+			color: $druidColor
+		&_priest
+			color: $priestColor
+		&_mage
+			color: $mageColor
+		&_monk
+			color: $monkColor
+		&_hunter
+			color: $hunterColor
+		&_demon-hunter
+			color: $demonHunterColor
+		&_paladin
+			color: $paladinColor
+		&_rogue
+			color: $rogueColor
+		&_death-knight
+			color: $deathKnightColor
+		&_warlock
+			color: $warlockColor
+		&_shaman
+			color: $shamanColor
+		&_awakener
+			color: $awakenerColor
+		&_one-handed-weapons, &_two-handed-weapons, &_range-weapons
+			color: $weaponsColor
+		&_legendary-weapons
+			color: $weaponsLegendaryColor
+		&_artefact-weapons
+			color: $weaponsArtefactColor
+		&_decorative-weapons
+			color: $weaponsDecorativeColor
+		&_shields, &_cloaks, &_fishing-rods
+			color: $armorsColor
+	&__menu
+		max-width: 85%
+	&__text
+		margin-top: 20px
+		font-size: 32px
+		line-height: 1.2
+		font-weight: 900
+		color: $mainColor
+		filter: brightness(125%)
