@@ -16,7 +16,7 @@ const App = () => {
 			<Wrapper>
 				<Header />
 				<Main>
-					<Announcement />
+					<Announcement home />
 					<Promo />
 					<Nav />
 					<Cards home />

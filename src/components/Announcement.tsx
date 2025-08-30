@@ -1,4 +1,4 @@
-const Announcement = ({ warrior, druid, priest, mage, monk, hunter, demonHunter, paladin, awakener, rogue, deathKnight, warlock, shaman, oneHandedWeapons, twoHandedWeapons, rangeWeapons, legendaryWeapons, artefactWeapons, decorativeWeapons, shields, cloaks, fishingRods, waterMounts, earthMounts, flyMounts, hordeGold, allianceGold, honour, arena, rbg }) => {
+const Announcement = ({ home, warrior, druid, priest, mage, monk, hunter, demonHunter, paladin, awakener, rogue, deathKnight, warlock, shaman, oneHandedWeapons, twoHandedWeapons, rangeWeapons, legendaryWeapons, artefactWeapons, decorativeWeapons, shields, cloaks, fishingRods, waterMounts, earthMounts, flyMounts, hordeGold, allianceGold, honour, arena, rbg }) => {
 	return (
 		<section className="announcement">
 			<div className="container">
@@ -191,7 +191,13 @@ const Announcement = ({ warrior, druid, priest, mage, monk, hunter, demonHunter,
 								: "World of Warcraft"
 						}
 					</h1>
-					<h2 className="announcement__subheader text-center">
+					<h2 className={`${
+						home
+							? "announcement__subheader announcement__subheader_main"
+							: "announcement__subheader"
+							} text-center`
+						}
+					>
 						{
 							warrior
 								? "Обрети мощь титана. Получите полный комплект, станьте неудержимой силой в бою и легендой Азерота!"
