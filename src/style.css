@@ -163,6 +163,12 @@ footer {
 .announcement__header_fly-mounts {
   color: #2e86e5;
 }
+.announcement__header_horde-gold {
+  color: #b90c1c;
+}
+.announcement__header_alliance-gold {
+  color: #037afb;
+}
 .announcement__menu {
   max-width: 85%;
 }
@@ -262,6 +268,12 @@ footer {
 }
 .promo__raitings_fly-mounts {
   background: url("/src/assets/img/mounts/bg/fly.png") no-repeat center/contain;
+}
+.promo__raitings_horde-gold {
+  background: url("/src/assets/img/gold/bg/horde.png") no-repeat center/contain;
+}
+.promo__raitings_alliance-gold {
+  background: url("/src/assets/img/gold/bg/alliance.png") no-repeat center/contain;
 }
 .promo__warnings {
   max-width: 300px;

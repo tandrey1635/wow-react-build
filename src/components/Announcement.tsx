@@ -1,4 +1,4 @@
-const Announcement = ({ warrior, druid, priest, mage, monk, hunter, demonHunter, paladin, awakener, rogue, deathKnight, warlock, shaman, oneHandedWeapons, twoHandedWeapons, rangeWeapons, legendaryWeapons, artefactWeapons, decorativeWeapons, shields, cloaks, fishingRods, waterMounts, earthMounts, flyMounts }) => {
+const Announcement = ({ warrior, druid, priest, mage, monk, hunter, demonHunter, paladin, awakener, rogue, deathKnight, warlock, shaman, oneHandedWeapons, twoHandedWeapons, rangeWeapons, legendaryWeapons, artefactWeapons, decorativeWeapons, shields, cloaks, fishingRods, waterMounts, earthMounts, flyMounts, hordeGold, allianceGold }) => {
 	return (
 		<section className="announcement">
 			<div className="container">
@@ -79,6 +79,12 @@ const Announcement = ({ warrior, druid, priest, mage, monk, hunter, demonHunter,
 								:
 							flyMounts
 								? "announcement__header announcement__header_fly-mounts"
+								:
+							hordeGold
+								? "announcement__header announcement__header_horde-gold"
+								:
+							allianceGold
+								? "announcement__header announcement__header_alliance-gold"
 								: "announcement__header"
 							} text-center`
 						}
@@ -158,6 +164,12 @@ const Announcement = ({ warrior, druid, priest, mage, monk, hunter, demonHunter,
 								:
 							flyMounts
 								? "Летающие маунты"
+								:
+							hordeGold
+								? "Золото для игроков орды"
+								:
+							allianceGold
+								? "Золото для игроков альянса"
 								: "World of Warcraft"
 						}
 					</h1>
