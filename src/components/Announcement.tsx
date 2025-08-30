@@ -1,47 +1,47 @@
-const Announcement = ({ raidsArmourWarrior, raidsArmourDruid, raidsArmourPriest, raidsArmourMage, raidsArmourMonk, raidsArmourHunter, raidsArmourDemonHunter, raidsArmourPaladin, raidsArmourRogue, raidsArmourDeathKnight, raidsArmourWarlock, raidsArmourShaman, raidsArmourAwakener, oneHandedWeapons, twoHandedWeapons, rangeWeapons, legendaryWeapons, artefactWeapons, decorativeWeapons, shields, cloaks, fishingRods }) => {
+const Announcement = ({ warrior, druid, priest, mage, monk, hunter, demonHunter, paladin, awakener, rogue, deathKnight, warlock, shaman, oneHandedWeapons, twoHandedWeapons, rangeWeapons, legendaryWeapons, artefactWeapons, decorativeWeapons, shields, cloaks, fishingRods, waterMounts, earthMounts, flyMounts }) => {
 	return (
 		<section className="announcement">
 			<div className="container">
 				<div className="announcement__description d-flex flex-column justify-content-center mx-auto my-5">
 					<h1
 						className={`${
-							raidsArmourWarrior
+							warrior
 								? "announcement__header announcement__header_warrior"
 								:
-							raidsArmourDruid
+							druid
 								? "announcement__header announcement__header_druid"
 								:
-							raidsArmourPriest
+							priest
 								? "announcement__header announcement__header_priest"
 								:
-							raidsArmourMage
+							mage
 								? "announcement__header announcement__header_mage"
 								:
-							raidsArmourMonk
+							monk
 								? "announcement__header announcement__header_monk"
 								:
-							raidsArmourHunter
+							hunter
 								? "announcement__header announcement__header_hunter"
 								:
-							raidsArmourDemonHunter
+							demonHunter
 								? "announcement__header announcement__header_demon-hunter"
 								:
-							raidsArmourPaladin
+							paladin
 								? "announcement__header announcement__header_paladin"
 								:
-							raidsArmourRogue
+							rogue
 								? "announcement__header announcement__header_rogue"
 								:
-							raidsArmourDeathKnight
+							deathKnight
 								? "announcement__header announcement__header_death-knight"
 								:
-							raidsArmourWarlock
+							warlock
 								? "announcement__header announcement__header_warlock"
 								:
-							raidsArmourShaman
+							shaman
 								? "announcement__header announcement__header_shaman"
 								:
-							raidsArmourAwakener
+							awakener
 								? "announcement__header announcement__header_awakener"
 								:
 							oneHandedWeapons
@@ -70,75 +70,96 @@ const Announcement = ({ raidsArmourWarrior, raidsArmourDruid, raidsArmourPriest,
 								:
 							fishingRods
 								? "announcement__header announcement__header_fishing-rods"
+								:
+							waterMounts
+								? "announcement__header announcement__header_water-mounts"
+								:
+							earthMounts
+								? "announcement__header announcement__header_earth-mounts"
+								:
+							flyMounts
+								? "announcement__header announcement__header_fly-mounts"
 								: "announcement__header"
-						} text-center`}
+							} text-center`
+						}
 					>
-						{raidsArmourWarrior
-							? "Комплекты рейдовой брони на воина"
-							:
-						raidsArmourDruid
-							? "Комплекты рейдовой брони на друида"
-							:
-						raidsArmourPriest
-							? "Комплекты рейдовой брони на жреца"
-							:
-						raidsArmourMage
-							? "Комплекты рейдовой брони на мага"
-							:
-						raidsArmourMonk
-							? "Комплекты рейдовой брони на монаха"
-							:
-						raidsArmourHunter
-							? "Комплекты рейдовой брони на охотника"
-							:
-						raidsArmourDemonHunter
-							? "Комплекты рейдовой брони на охотника на демонов"
-							:
-						raidsArmourPaladin
-							? "Комплекты рейдовой брони на паладина"
-							:
-						raidsArmourRogue
-							? "Комплекты рейдовой брони на разбойника"
-							:
-						raidsArmourDeathKnight
-							? "Комплекты рейдовой брони на рыцаря смерти"
-							:
-						raidsArmourWarlock
-							? "Комплекты рейдовой брони на чернокнижника"
-							:
-						raidsArmourShaman
-							? "Комплекты рейдовой брони на шамана"
-							:
-						raidsArmourAwakener
-							? "Комплекты рейдовой брони на пробудителя"
-							:
-						oneHandedWeapons
-							? "Одноручное оружие"
-							:
-						twoHandedWeapons
-							? "Двуручное оружие"
-							:
-						rangeWeapons
-							? "Оружие дальнего боя"
-							:
-						legendaryWeapons
-							? "Легендарное оружие"
-							:
-						artefactWeapons
-							? "Артефакты Legion"
-							:
-						decorativeWeapons
-							? "Декоративное оружие"
-							:
-						shields
-							? "Щиты"
-							:
-						cloaks
-							? "Плащи"
-							:
-						fishingRods
-							? "Удочки"
-							: "World of Warcraft"}
+						{
+							warrior
+								? "Комплекты рейдовой брони на воина"
+								:
+							druid
+								? "Комплекты рейдовой брони на друида"
+								:
+							priest
+								? "Комплекты рейдовой брони на жреца"
+								:
+							mage
+								? "Комплекты рейдовой брони на мага"
+								:
+							monk
+								? "Комплекты рейдовой брони на монаха"
+								:
+							hunter
+								? "Комплекты рейдовой брони на охотника"
+								:
+							demonHunter
+								? "Комплекты рейдовой брони на охотника на демонов"
+								:
+							paladin
+								? "Комплекты рейдовой брони на паладина"
+								:
+							awakener
+								? "Комплекты рейдовой брони на пробудителя"
+								:
+							rogue
+								? "Комплекты рейдовой брони на разбойника"
+								:
+							deathKnight
+								? "Комплекты рейдовой брони на рыцаря смерти"
+								:
+							warlock
+								? "Комплекты рейдовой брони на чернокнижника"
+								:
+							shaman
+								? "Комплекты рейдовой брони на шамана"
+								:
+							oneHandedWeapons
+								? "Одноручное оружие"
+								:
+							twoHandedWeapons
+								? "Двуручное оружие"
+								:
+							rangeWeapons
+								? "Оружие дальнего боя"
+								:
+							legendaryWeapons
+								? "Легендарное оружие"
+								:
+							artefactWeapons
+								? "Артефакты Legion"
+								:
+							decorativeWeapons
+								? "Декоративное оружие"
+								:
+							shields
+								? "Щиты"
+								:
+							cloaks
+								? "Плащи"
+								:
+							fishingRods
+								? "Удочки"
+								:
+							waterMounts
+								? "Водные маунты"
+								:
+							earthMounts
+								? "Наземные маунты"
+								:
+							flyMounts
+								? "Летающие маунты"
+								: "World of Warcraft"
+						}
 					</h1>
 					<p className="announcement__text text-center">
 						Сэкономьте свое время, приобретая предметы, валюту и

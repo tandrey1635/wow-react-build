@@ -2,6 +2,7 @@ import { Link } from "react-router";
 
 
 const Card = ({home, raidsArmourWarrior}) => {
+
 	const basePathImg = '/src/assets/img'
 
 	/* Фото рейдовая броня гл стр */
@@ -195,6 +196,22 @@ const Card = ({home, raidsArmourWarrior}) => {
 										</div>
 									</div>
 
+									<div className="card card-awakener">
+										<Link to="raids-armours/awakener">
+											<img src={awakenerCardImg} className="card-img" alt="Рейдовые Комплекты Брони на Пробудителя" />
+										</Link>
+										<div className="card-body">
+											<Link className="card-link" to="raids-armours/awakener">
+												<h3 className="card-title card-title-awakener">Пробудитель</h3>
+											</Link>
+											<p className="card-text card-text-awakener">Рейдовые Комплекты Брони на Пробудителя</p>
+										</div>
+										<div className="card-footer d-flex justify-content-between align-items-center">
+											<p className="card-price card-price-awakener">от 100<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="raids-armours/awakener" className="card-btn card-btn-awakener">Подробнее</Link>
+										</div>
+									</div>
+
 									<div className="card card-rogue">
 										<Link to="raids-armours/rogue">
 											<img src={rogueCardImg} className="card-img" alt="Рейдовые Комплекты Брони на Разбойника" />
@@ -256,22 +273,6 @@ const Card = ({home, raidsArmourWarrior}) => {
 										<div className="card-footer d-flex justify-content-between align-items-center">
 											<p className="card-price card-price-shaman">от 100<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
 											<Link to="raids-armours/shaman" className="card-btn card-btn-shaman">Подробнее</Link>
-										</div>
-									</div>
-
-									<div className="card card-awakener">
-										<Link to="raids-armours/awakener">
-											<img src={awakenerCardImg} className="card-img" alt="Рейдовые Комплекты Брони на Пробудителя" />
-										</Link>
-										<div className="card-body">
-											<Link className="card-link" to="raids-armours/awakener">
-												<h3 className="card-title card-title-awakener">Пробудитель</h3>
-											</Link>
-											<p className="card-text card-text-awakener">Рейдовые Комплекты Брони на Пробудителя</p>
-										</div>
-										<div className="card-footer d-flex justify-content-between align-items-center">
-											<p className="card-price card-price-awakener">от 100<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
-											<Link to="raids-armours/awakener" className="card-btn card-btn-awakener">Подробнее</Link>
 										</div>
 									</div>
 								</div>

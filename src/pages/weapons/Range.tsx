@@ -17,7 +17,7 @@ const RangeWeapons = () => {
 				<Main>
 					<h1 style={{fontSize: 120}} className="text-center text-danger">В разработке</h1>
 					<Announcement rangeWeapons />
-					<Promo range />
+					<Promo rangeWeapons />
 				</Main>
 				<Footer />
 			</Wrapper>

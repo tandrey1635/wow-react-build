@@ -17,7 +17,7 @@ const TwoHandedWeapons = () => {
 				<Main>
 					<h1 style={{fontSize: 120}} className="text-center text-danger">В разработке</h1>
 					<Announcement twoHandedWeapons />
-					<Promo twoHanded />
+					<Promo twoHandedWeapons />
 				</Main>
 				<Footer />
 			</Wrapper>

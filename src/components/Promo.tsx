@@ -1,4 +1,4 @@
-const Promo = ({ warrior, druid, priest, mage, monk, hunter, demonHunter, paladin, rogue, deathKnight, warlock, shaman, awakener, oneHanded, twoHanded, range, legendary, artefact, decorative, shields, cloaks, fishingRods }) => {
+const Promo = ({ warrior, druid, priest, mage, monk, hunter, demonHunter, paladin, awakener, rogue, deathKnight, warlock, shaman, oneHandedWeapons, twoHandedWeapons, rangeWeapons, legendaryWeapons, artefactWeapons, decorativeWeapons, shields, cloaks, fishingRods, waterMounts, earthMounts, flyMounts }) => {
 	return (
 		<section className="promo">
 			<div className="container d-flex justify-content-between align-items-center flex-column flex-lg-row">
@@ -55,6 +55,9 @@ const Promo = ({ warrior, druid, priest, mage, monk, hunter, demonHunter, paladi
 						paladin
 							? "promo__raitings promo__raitings_paladin"
 							:
+						awakener
+							? "promo__raitings promo__raitings_awakener"
+							:
 						rogue
 							? "promo__raitings promo__raitings_rogue"
 							:
@@ -67,26 +70,23 @@ const Promo = ({ warrior, druid, priest, mage, monk, hunter, demonHunter, paladi
 						shaman
 							? "promo__raitings promo__raitings_shaman"
 							:
-						awakener
-							? "promo__raitings promo__raitings_awakener"
+						oneHandedWeapons
+							? "promo__raitings promo__raitings_one-handed-weapons"
 							:
-						oneHanded
-							? "promo__raitings promo__raitings_one-handed"
+						twoHandedWeapons
+							? "promo__raitings promo__raitings_two-handed-weapons"
 							:
-						twoHanded
-							? "promo__raitings promo__raitings_two-handed"
+						rangeWeapons
+							? "promo__raitings promo__raitings_range-weapons"
 							:
-						range
-							? "promo__raitings promo__raitings_range"
+						legendaryWeapons
+							? "promo__raitings promo__raitings_legendary-weapons"
 							:
-						legendary
-							? "promo__raitings promo__raitings_legendary"
+						artefactWeapons
+							? "promo__raitings promo__raitings_artefact-weapons"
 							:
-						artefact
-							? "promo__raitings promo__raitings_artefact"
-							:
-						decorative
-							? "promo__raitings promo__raitings_decorative"
+						decorativeWeapons
+							? "promo__raitings promo__raitings_decorative-weapons"
 							:
 						shields
 							? "promo__raitings promo__raitings_shields"
@@ -96,8 +96,18 @@ const Promo = ({ warrior, druid, priest, mage, monk, hunter, demonHunter, paladi
 							:
 						fishingRods
 							? "promo__raitings promo__raitings_fishing-rods"
+							:
+						waterMounts
+							? "promo__raitings promo__raitings_water-mounts"
+							:
+						earthMounts
+							? "promo__raitings promo__raitings_earth-mounts"
+							:
+						flyMounts
+							? "promo__raitings promo__raitings_fly-mounts"
 							: "promo__raitings"
-					} mt-md-5`}
+						} mt-md-5`
+					}
 				></div>
 			</div>
 		</section>

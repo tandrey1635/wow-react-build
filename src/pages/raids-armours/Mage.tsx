@@ -16,7 +16,7 @@ const Mage = () => {
 				<Header />
 				<Main>
 					<h1 style={{fontSize: 120}} className="text-center text-danger">В разработке</h1>
-					<Announcement raidsArmourMage />
+					<Announcement mage />
 					<Promo mage />
 				</Main>
 				<Footer />

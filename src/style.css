@@ -154,6 +154,15 @@ footer {
 .announcement__header_shields, .announcement__header_cloaks, .announcement__header_fishing-rods {
   color: #8400ff;
 }
+.announcement__header_water-mounts {
+  color: #00ffff;
+}
+.announcement__header_earth-mounts {
+  color: #854c27;
+}
+.announcement__header_fly-mounts {
+  color: #2e86e5;
+}
 .announcement__menu {
   max-width: 85%;
 }
@@ -218,22 +227,22 @@ footer {
 .promo__raitings_awakener {
   background: url("/src/assets/img/promo/bg/classes/sarkareth.png") no-repeat center/contain;
 }
-.promo__raitings_one-handed {
+.promo__raitings_one-handed-weapons {
   background: url("/src/assets/img/weapons/bg/one-handed.png") no-repeat center/contain;
 }
-.promo__raitings_two-handed {
+.promo__raitings_two-handed-weapons {
   background: url("/src/assets/img/weapons/bg/two-handed.png") no-repeat center/contain;
 }
-.promo__raitings_range {
+.promo__raitings_range-weapons {
   background: url("/src/assets/img/weapons/bg/range.png") no-repeat center/contain;
 }
-.promo__raitings_legendary {
+.promo__raitings_legendary-weapons {
   background: url("/src/assets/img/weapons/bg/legendary.png") no-repeat center/contain;
 }
-.promo__raitings_artefact {
+.promo__raitings_artefact-weapons {
   background: url("/src/assets/img/weapons/bg/artefact.png") no-repeat center/contain;
 }
-.promo__raitings_decorative {
+.promo__raitings_decorative-weapons {
   background: url("/src/assets/img/weapons/bg/decorative.png") no-repeat center/contain;
 }
 .promo__raitings_shields {
@@ -244,6 +253,15 @@ footer {
 }
 .promo__raitings_fishing-rods {
   background: url("/src/assets/img/armours/bg/fishing-rods.png") no-repeat center/contain;
+}
+.promo__raitings_water-mounts {
+  background: url("/src/assets/img/mounts/bg/water.png") no-repeat center/contain;
+}
+.promo__raitings_earth-mounts {
+  background: url("/src/assets/img/mounts/bg/earth.png") no-repeat center/contain;
+}
+.promo__raitings_fly-mounts {
+  background: url("/src/assets/img/mounts/bg/fly.png") no-repeat center/contain;
 }
 .promo__warnings {
   max-width: 300px;
@@ -772,16 +790,6 @@ footer {
   transform: scale(1);
   cursor: url("/src/assets/icons/cursor-action.png"), auto;
 }
-@media (max-width: 379px) {
-  .card-title {
-    font-size: 34px;
-  }
-}
-@media (max-width: 369px) {
-  .card-title {
-    font-size: 22px;
-  }
-}
 
 .card-text {
   font-weight: 900;
@@ -916,11 +924,6 @@ footer {
 .card-text-buy:hover {
   transform: scale(1);
 }
-@media (max-width: 369px) {
-  .card-text {
-    font-size: 16px;
-  }
-}
 
 .card-footer {
   margin-bottom: 1rem;
@@ -940,11 +943,6 @@ footer {
 .card-price:hover {
   transition: 0.5s all;
   transform: scale(1.1);
-}
-@media (max-width: 369px) {
-  .card-price {
-    font-size: 18px;
-  }
 }
 
 .card-btn {
@@ -972,12 +970,6 @@ footer {
   margin-left: 10px;
   width: 36px;
   height: 36px;
-}
-@media (max-width: 369px) {
-  .gold, .dollar {
-    width: 22px;
-    height: 22px;
-  }
 }
 
 .order__steps {
