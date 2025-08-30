@@ -68,7 +68,7 @@ const Footer = () => {
 					</div>
 
 					<div className="footer__bottom mt-5">
-						<p className="footer__copyright">&copy; WowForAll Все права защищены {currentYear}</p>
+						<p className="footer__copyright text-center">&copy; WowForAll Все права защищены {currentYear}</p>
 					</div>
 				</div>
 			</div>
