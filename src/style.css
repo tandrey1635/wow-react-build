@@ -98,6 +98,11 @@ footer {
     height: 200px;
   }
 }
+@media (max-width: 375px) {
+  .header__top {
+    height: 160px;
+  }
+}
 
 .navbar-collapse {
   flex-grow: 0;
