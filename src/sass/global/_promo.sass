@@ -1,8 +1,7 @@
 @use '../base/index' as *
 
 .promo
-	padding: 20px 0
-	min-height: 500px
+	padding: 50px 0
 	&__info
 		width: 45%
 	&__raitings
@@ -64,6 +63,12 @@
 			@include background('/src/assets/img/gold/bg/horde.png', contain)
 		&_alliance-gold
 			@include background('/src/assets/img/gold/bg/alliance.png', contain)
+		&_honour
+			@include background('/src/assets/img/pvp/bg/honour.png', contain)
+		&_arena
+			@include background('/src/assets/img/pvp/bg/arena.png', contain)
+		&_rbg
+			@include background('/src/assets/img/pvp/bg/rbg.png', contain)
 	&__warnings
 		max-width: 300px
 		padding: 10px

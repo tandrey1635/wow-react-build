@@ -1,4 +1,4 @@
-const Promo = ({ warrior, druid, priest, mage, monk, hunter, demonHunter, paladin, awakener, rogue, deathKnight, warlock, shaman, oneHandedWeapons, twoHandedWeapons, rangeWeapons, legendaryWeapons, artefactWeapons, decorativeWeapons, shields, cloaks, fishingRods, waterMounts, earthMounts, flyMounts, hordeGold, allianceGold }) => {
+const Promo = ({ warrior, druid, priest, mage, monk, hunter, demonHunter, paladin, awakener, rogue, deathKnight, warlock, shaman, oneHandedWeapons, twoHandedWeapons, rangeWeapons, legendaryWeapons, artefactWeapons, decorativeWeapons, shields, cloaks, fishingRods, waterMounts, earthMounts, flyMounts, hordeGold, allianceGold, honour, arena, rbg }) => {
 	return (
 		<section className="promo">
 			<div className="container d-flex justify-content-between align-items-center flex-column flex-lg-row">
@@ -111,6 +111,15 @@ const Promo = ({ warrior, druid, priest, mage, monk, hunter, demonHunter, paladi
 							:
 						allianceGold
 							? "promo__raitings promo__raitings_alliance-gold"
+							:
+						honour
+							? "promo__raitings promo__raitings_honour"
+							:
+						arena
+							? "promo__raitings promo__raitings_arena"
+							:
+						rbg
+							? "promo__raitings promo__raitings_rbg"
 							: "promo__raitings"
 						} mt-md-5`
 					}

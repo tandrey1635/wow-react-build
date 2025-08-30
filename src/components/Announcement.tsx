@@ -1,4 +1,4 @@
-const Announcement = ({ warrior, druid, priest, mage, monk, hunter, demonHunter, paladin, awakener, rogue, deathKnight, warlock, shaman, oneHandedWeapons, twoHandedWeapons, rangeWeapons, legendaryWeapons, artefactWeapons, decorativeWeapons, shields, cloaks, fishingRods, waterMounts, earthMounts, flyMounts, hordeGold, allianceGold }) => {
+const Announcement = ({ warrior, druid, priest, mage, monk, hunter, demonHunter, paladin, awakener, rogue, deathKnight, warlock, shaman, oneHandedWeapons, twoHandedWeapons, rangeWeapons, legendaryWeapons, artefactWeapons, decorativeWeapons, shields, cloaks, fishingRods, waterMounts, earthMounts, flyMounts, hordeGold, allianceGold, honour, arena, rbg }) => {
 	return (
 		<section className="announcement">
 			<div className="container">
@@ -85,6 +85,15 @@ const Announcement = ({ warrior, druid, priest, mage, monk, hunter, demonHunter,
 								:
 							allianceGold
 								? "announcement__header announcement__header_alliance-gold"
+								:
+							honour
+								? "announcement__header announcement__header_honour"
+								:
+							arena
+								? "announcement__header announcement__header_arena"
+								:
+							rbg
+								? "announcement__header announcement__header_rbg"
 								: "announcement__header"
 							} text-center`
 						}
@@ -170,12 +179,22 @@ const Announcement = ({ warrior, druid, priest, mage, monk, hunter, demonHunter,
 								:
 							allianceGold
 								? "Золото для игроков альянса"
+								:
+							honour
+								? "Очки чести"
+								:
+							arena
+								? "Очки арены"
+								:
+							rbg
+								? "Рейтинговые поля боя"
 								: "World of Warcraft"
 						}
 					</h1>
+					<h2 className="announcement__header text-center">Станьте легендой Азерота!</h2>
 					<p className="announcement__text text-center">
 						Сэкономьте свое время, приобретая предметы, валюту и
-						навыки, чтобы играть на другом уровне
+						достижения, чтобы играть на другом уровне
 					</p>
 				</div>
 			</div>

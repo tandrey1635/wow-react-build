@@ -169,6 +169,9 @@ footer {
 .announcement__header_alliance-gold {
   color: #037afb;
 }
+.announcement__header_honour, .announcement__header_arena, .announcement__header_rbg {
+  color: #ff0033;
+}
 .announcement__menu {
   max-width: 85%;
 }
@@ -182,8 +185,7 @@ footer {
 }
 
 .promo {
-  padding: 20px 0;
-  min-height: 500px;
+  padding: 50px 0;
 }
 .promo__info {
   width: 45%;
@@ -274,6 +276,15 @@ footer {
 }
 .promo__raitings_alliance-gold {
   background: url("/src/assets/img/gold/bg/alliance.png") no-repeat center/contain;
+}
+.promo__raitings_honour {
+  background: url("/src/assets/img/pvp/bg/honour.png") no-repeat center/contain;
+}
+.promo__raitings_arena {
+  background: url("/src/assets/img/pvp/bg/arena.png") no-repeat center/contain;
+}
+.promo__raitings_rbg {
+  background: url("/src/assets/img/pvp/bg/rbg.png") no-repeat center/contain;
 }
 .promo__warnings {
   max-width: 300px;
