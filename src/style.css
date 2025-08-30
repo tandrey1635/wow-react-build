@@ -80,8 +80,23 @@ footer {
 }
 
 .header__top {
-  height: 300px;
-  background: url("/src/assets/icons/logo/logo.png") no-repeat center;
+  height: 350px;
+  background: url("/src/assets/icons/logo/logo.png") no-repeat center/contain;
+}
+@media (max-width: 676px) {
+  .header__top {
+    height: 300px;
+  }
+}
+@media (max-width: 575.98px) {
+  .header__top {
+    height: 250px;
+  }
+}
+@media (max-width: 480px) {
+  .header__top {
+    height: 200px;
+  }
 }
 
 .navbar-collapse {
@@ -174,11 +189,12 @@ footer {
 }
 .announcement__subheader {
   font-size: 36px;
-  color: #673ab7;
+  text-transform: none;
 }
 .announcement__subheader_main {
   font-size: 64px;
   color: #ffc107;
+  text-transform: uppercase;
 }
 .announcement__menu {
   max-width: 85%;
@@ -758,7 +774,7 @@ footer {
 .card-title-weapons-decorative {
   color: #dc3ef3;
 }
-.card-title-armors {
+.card-title-armours {
   color: #8400ff;
 }
 .card-title-mounts-water {
@@ -775,6 +791,9 @@ footer {
 }
 .card-title-gold-alliance {
   color: #037afb;
+}
+.card-title-pvp {
+  color: #ff0033;
 }
 .card-title-raids {
   color: #673ab7;
@@ -874,6 +893,12 @@ footer {
 .card-text-awakener {
   color: #00c199;
 }
+.card-text-weapons {
+  color: #8400ff;
+}
+.card-text-armours {
+  color: #8400ff;
+}
 .card-text-mounts-water {
   color: #00ffff;
 }
@@ -888,6 +913,9 @@ footer {
 }
 .card-text-gold-alliance {
   color: #037afb;
+}
+.card-text-pvp {
+  color: #ff0033;
 }
 .card-text-raids {
   color: #673ab7;
@@ -974,6 +1002,72 @@ footer {
 .card-price:hover {
   transition: 0.5s all;
   transform: scale(1.1);
+}
+.card-price-warrior {
+  color: #854c27;
+}
+.card-price-druid {
+  color: #ff7d0a;
+}
+.card-price-priest {
+  color: #fff;
+}
+.card-price-mage {
+  color: #00bfff;
+}
+.card-price-monk {
+  color: #0ae979;
+}
+.card-price-hunter {
+  color: #0ae979;
+}
+.card-price-demon-hunter {
+  color: #8b00ff;
+}
+.card-price-paladin {
+  color: #fb3a86;
+}
+.card-price-awakener {
+  color: #00c199;
+}
+.card-price-rogue {
+  color: #ddcb17;
+}
+.card-price-death-knight {
+  color: #c41f3b;
+}
+.card-price-warlock {
+  color: #7b13df;
+}
+.card-price-shaman {
+  color: #185ec1;
+}
+.card-price-weapons {
+  color: #8400ff;
+}
+.card-price-armours {
+  color: #8400ff;
+}
+.card-price-armours {
+  color: #8400ff;
+}
+.card-price-mounts-water {
+  color: #00ffff;
+}
+.card-price-mounts-earth {
+  color: #854c27;
+}
+.card-price-mounts-fly {
+  color: #2e86e5;
+}
+.card-price-gold-horde {
+  color: #b90c1c;
+}
+.card-price-gold-alliance {
+  color: #037afb;
+}
+.card-price-pvp {
+  color: #ff0033;
 }
 
 .card-btn {

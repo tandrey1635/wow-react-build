@@ -1,8 +1,14 @@
 @use '../base/index' as *
 
 .header__top
-    height: 300px
-    background: url('/src/assets/icons/logo/logo.png') no-repeat center
+	height: 350px
+	@include background('/src/assets/icons/logo/logo.png', contain)
+	@media ( max-width: 676px )
+		height: 300px
+	@media ( max-width: 575.98px )
+		height: 250px
+	@media ( max-width: 480px )
+		height: 200px
 .navbar-collapse
-    flex-grow: 0
-    max-width: 100%
+	flex-grow: 0
+	max-width: 100%

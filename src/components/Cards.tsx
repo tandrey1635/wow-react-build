@@ -380,53 +380,53 @@ const Card = ({home, raidsArmourWarrior}) => {
 							</div>
 
 							{/* Таб контент броня */}
-							<div className="tab-pane fade show active mt-5" id="pills-armor">
+							<div className="tab-pane fade show active mt-5" id="pills-armour">
 								<div className="card-box d-flex flex-wrap justify-content-center justify-content-xl-start">
-									<div className="card card-armors card-armors-shields">
+									<div className="card card-armours card-armours-shields">
 										<Link to="armours/shields">
 											<img src={ShieldsCardImg} className="card-img" alt="Щиты" />
 										</Link>
 										<div className="card-body">
 											<Link className="card-link" to="armours/shields">
-												<h3 className="card-title card-title-armors card-title-armors-shields">Щиты</h3>
+												<h3 className="card-title card-title-armours card-title-armours-shields">Щиты</h3>
 											</Link>
-											<p className="card-text card-text-armors card-text-armors-shields">Закажите любой щит на выбор</p>
+											<p className="card-text card-text-armours card-text-armours-shields">Закажите любой щит на выбор</p>
 										</div>
 										<div className="card-footer d-flex justify-content-between align-items-center">
-											<p className="card-price card-price-armors card-price-armors-shields">от 300<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
-											<Link to="armours/shields" className="card-btn card-btn-armors card-btn-armors-shields">Подробнее</Link>
+											<p className="card-price card-price-armours card-price-armours-shields">от 300<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="armours/shields" className="card-btn card-btn-armours card-btn-armours-shields">Подробнее</Link>
 										</div>
 									</div>
 
-									<div className="card card-armors card-armors-cloak">
+									<div className="card card-armours card-armours-cloak">
 										<Link to="armours/cloaks">
 											<img src={CloaksCardImg} className="card-img" alt="Плащи" />
 										</Link>
 										<div className="card-body">
 											<Link className="card-link" to="armours/cloaks">
-												<h3 className="card-title card-title-armors card-title-armors-cloak">Плащи</h3>
+												<h3 className="card-title card-title-armours card-title-armours-cloak">Плащи</h3>
 											</Link>
-											<p className="card-text card-text-armors card-text-armors-cloak">Закажите любой плащ на выбор</p>
+											<p className="card-text card-text-armours card-text-armours-cloak">Закажите любой плащ на выбор</p>
 										</div>
 										<div className="card-footer d-flex justify-content-between align-items-center">
-											<p className="card-price card-price-armors card-price-armors-cloak">от 300<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
-											<Link to="armours/cloaks" className="card-btn card-btn-armors card-btn-armors-cloak">Подробнее</Link>
+											<p className="card-price card-price-armours card-price-armours-cloak">от 300<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="armours/cloaks" className="card-btn card-btn-armours card-btn-armours-cloak">Подробнее</Link>
 										</div>
 									</div>
 
-									<div className="card card-armors card-armors-fishing-rods">
+									<div className="card card-armours card-armours-fishing-rods">
 										<Link to="armours/fishing-rods">
 											<img src={FishingRodsCardImg} className="card-img" alt="Удочки" />
 										</Link>
 										<div className="card-body">
 											<Link className="card-link" to="armours/fishing-rods">
-												<h3 className="card-title card-title-armors card-title-armors-fishing-rods">Удочки</h3>
+												<h3 className="card-title card-title-armours card-title-armours-fishing-rods">Удочки</h3>
 											</Link>
-											<p className="card-text card-text-armors card-text-armors-fishing-rods">Закажите любую удочку на выбор</p>
+											<p className="card-text card-text-armours card-text-armours-fishing-rods">Закажите любую удочку на выбор</p>
 										</div>
 										<div className="card-footer d-flex justify-content-between align-items-center">
-											<p className="card-price card-price-armors card-price-armors-fishing-rods">от 300<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
-											<Link to="armours/fishing-rods" className="card-btn card-btn-armors card-btn-armors-fishing-rods">Подробнее</Link>
+											<p className="card-price card-price-armours card-price-armours-fishing-rods">от 300<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="armours/fishing-rods" className="card-btn card-btn-armours card-btn-armours-fishing-rods">Подробнее</Link>
 										</div>
 									</div>
 								</div>

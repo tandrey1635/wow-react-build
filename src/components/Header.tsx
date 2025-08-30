@@ -31,7 +31,7 @@ const Header = () => {
 								<Link className="nav-link" to="https://raider.io/">Рейтинг</Link>
 							</li>
 							<li className="nav-item">
-								<Link className="nav-link" to=" https://www.wowprogress.com/">Лучшие игроки</Link>
+								<Link className="nav-link" to="https://www.wowprogress.com/">Лучшие игроки</Link>
 							</li>
 						</ul>
 						<div className="collapse navbar-collapse mx-auto" id="navbarSupportedContent">
