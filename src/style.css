@@ -93,84 +93,88 @@ footer {
   padding: 25px 0;
   min-height: 150px;
 }
-.announcement__header {
+.announcement__header, .announcement__subheader {
   font-weight: 900;
   color: #ffc107;
   font-size: 64px;
   filter: brightness(125%);
   text-transform: uppercase;
 }
-.announcement__header_warrior {
+.announcement__header_warrior, .announcement__subheader_warrior {
   color: #854c27;
 }
-.announcement__header_druid {
+.announcement__header_druid, .announcement__subheader_druid {
   color: #ff7d0a;
 }
-.announcement__header_priest {
+.announcement__header_priest, .announcement__subheader_priest {
   color: #fff;
 }
-.announcement__header_mage {
+.announcement__header_mage, .announcement__subheader_mage {
   color: #00bfff;
 }
-.announcement__header_monk {
+.announcement__header_monk, .announcement__subheader_monk {
   color: #0ae979;
 }
-.announcement__header_hunter {
+.announcement__header_hunter, .announcement__subheader_hunter {
   color: rgba(134, 197, 102, 0.9098039216);
 }
-.announcement__header_demon-hunter {
+.announcement__header_demon-hunter, .announcement__subheader_demon-hunter {
   color: #8b00ff;
 }
-.announcement__header_paladin {
+.announcement__header_paladin, .announcement__subheader_paladin {
   color: #fb3a86;
 }
-.announcement__header_rogue {
+.announcement__header_rogue, .announcement__subheader_rogue {
   color: #ddcb17;
 }
-.announcement__header_death-knight {
+.announcement__header_death-knight, .announcement__subheader_death-knight {
   color: #c41f3b;
 }
-.announcement__header_warlock {
+.announcement__header_warlock, .announcement__subheader_warlock {
   color: #7b13df;
 }
-.announcement__header_shaman {
+.announcement__header_shaman, .announcement__subheader_shaman {
   color: #185ec1;
 }
-.announcement__header_awakener {
+.announcement__header_awakener, .announcement__subheader_awakener {
   color: #00c199;
 }
-.announcement__header_one-handed-weapons, .announcement__header_two-handed-weapons, .announcement__header_range-weapons {
+.announcement__header_one-handed-weapons, .announcement__header_two-handed-weapons, .announcement__header_range-weapons, .announcement__subheader_one-handed-weapons, .announcement__subheader_two-handed-weapons, .announcement__subheader_range-weapons {
   color: #8400ff;
 }
-.announcement__header_legendary-weapons {
+.announcement__header_legendary-weapons, .announcement__subheader_legendary-weapons {
   color: #ff8000;
 }
-.announcement__header_artefact-weapons {
+.announcement__header_artefact-weapons, .announcement__subheader_artefact-weapons {
   color: #d9c798;
 }
-.announcement__header_decorative-weapons {
+.announcement__header_decorative-weapons, .announcement__subheader_decorative-weapons {
   color: #dc3ef3;
 }
-.announcement__header_shields, .announcement__header_cloaks, .announcement__header_fishing-rods {
+.announcement__header_shields, .announcement__header_cloaks, .announcement__header_fishing-rods, .announcement__subheader_shields, .announcement__subheader_cloaks, .announcement__subheader_fishing-rods {
   color: #8400ff;
 }
-.announcement__header_water-mounts {
+.announcement__header_water-mounts, .announcement__subheader_water-mounts {
   color: #00ffff;
 }
-.announcement__header_earth-mounts {
+.announcement__header_earth-mounts, .announcement__subheader_earth-mounts {
   color: #854c27;
 }
-.announcement__header_fly-mounts {
+.announcement__header_fly-mounts, .announcement__subheader_fly-mounts {
   color: #2e86e5;
 }
-.announcement__header_horde-gold {
+.announcement__header_horde-gold, .announcement__subheader_horde-gold {
   color: #b90c1c;
 }
-.announcement__header_alliance-gold {
+.announcement__header_alliance-gold, .announcement__subheader_alliance-gold {
   color: #037afb;
 }
-.announcement__header_honour, .announcement__header_arena, .announcement__header_rbg {
+.announcement__header_honour, .announcement__header_arena, .announcement__header_rbg, .announcement__subheader_honour, .announcement__subheader_arena, .announcement__subheader_rbg {
   color: #ff0033;
+}
+.announcement__subheader {
+  font-size: 36px;
+  color: #673ab7;
 }
 .announcement__menu {
   max-width: 85%;
