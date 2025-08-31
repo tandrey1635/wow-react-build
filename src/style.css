@@ -116,7 +116,7 @@ footer {
 }
 .announcement__header, .announcement__subheader {
   font-weight: 900;
-  color: #fff;
+  color: #ffc107;
   font-size: 64px;
   filter: brightness(125%);
   text-transform: uppercase;
@@ -199,7 +199,7 @@ footer {
 }
 .announcement__subheader_main {
   font-size: 64px;
-  color: #fff;
+  color: #ffc107;
   text-transform: uppercase;
 }
 .announcement__menu {
@@ -1209,7 +1209,7 @@ footer {
   width: 150px;
   background: rgba(142, 148, 247, 0.2);
   filter: brightness(125%);
-  color: #fff;
+  color: #ffc107;
   padding: 10px 35px;
   border-radius: 10px;
   font-weight: 700;
@@ -1261,7 +1261,7 @@ footer {
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .show > .nav-link:focus, .navbar-light .navbar-nav .show > .nav-link:hover {
   border-radius: 20px;
   background: linear-gradient(180deg, #7932ff, #564fff);
-  color: #fff;
+  color: #ffc107;
   font-weight: 700;
   filter: brightness(125%);
 }
@@ -1303,11 +1303,11 @@ footer {
 .dropdown-item {
   border-radius: 10px;
   font-weight: 700;
-  color: #fff;
+  color: #ffc107;
 }
 .dropdown-item:active, .dropdown-item:focus, .dropdown-item:hover {
   background: #000;
-  color: #fff;
+  color: #ffc107;
 }
 
 /* Кнопка Входа и Регистрации */
@@ -1347,13 +1347,13 @@ footer {
   background: linear-gradient(180deg, #7932ff, #564fff);
 }
 .nav-link-tabs:hover {
-  color: #fff;
+  color: #ffc107;
   filter: brightness(125%);
 }
 
 /* Фон всех активных ссылок в нав меню */
 .nav-pills .nav-link.active {
-  color: #fff;
+  color: #ffc107;
   background: linear-gradient(325deg, #673ab7, transparent 30%, transparent 35%, #673ab7, transparent);
   filter: brightness(125%);
 }
@@ -1403,7 +1403,7 @@ footer {
   }
 }
 .services .nav-link .active {
-  color: #fff;
+  color: #ffc107;
   background: linear-gradient(325deg, #673ab7, transparent 30%, transparent 35%, #673ab7, transparent);
   filter: brightness(125%);
 }
@@ -1413,7 +1413,7 @@ footer {
   background: linear-gradient(180deg, #7932ff, #564fff);
 }
 .services__link:hover {
-  color: #fff;
+  color: #ffc107;
   filter: brightness(125%);
 }
 .services__link-class-raids-armour {
