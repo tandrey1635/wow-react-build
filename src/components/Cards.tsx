@@ -44,6 +44,24 @@ const Card = ({home, raidsArmourWarrior}) => {
 	const AllianceGoldCardImg = `${basePathImg}/gold/bg/alliance.png`
 
 
+	/* Фото профессии гл стр */
+	const AlchemyCardImg = `${basePathImg}/professions/bg/alchemy.png`
+	const MiningCardImg = `${basePathImg}/professions/bg/mining.png`
+	const EngineeringCardImg = `${basePathImg}/professions/bg/engineering.png`
+	const LeatherworkingCardImg = `${basePathImg}/professions/bg/leatherworking.png`
+	const BlacksmithingCardImg = `${basePathImg}/professions/bg/blacksmithing.png`
+	const EnchantingCardImg = `${basePathImg}/professions/bg/enchanting.png`
+	const InscriptionCardImg = `${basePathImg}/professions/bg/inscription.png`
+	const TailoringCardImg = `${basePathImg}/professions/bg/tailoring.png`
+	const SkinningCardImg = `${basePathImg}/professions/bg/skinning.png`
+	const HerbalismCardImg = `${basePathImg}/professions/bg/herbalism.png`
+	const JewelcraftingCardImg = `${basePathImg}/professions/bg/jewelcrafting.png`
+	const ArchaeologyCardImg = `${basePathImg}/professions/bg/archaeology.png`
+	const RidingCardImg = `${basePathImg}/professions/bg/riding.png`
+	const CookingCardImg = `${basePathImg}/professions/bg/cooking.png`
+	const FirstAidCardImg = `${basePathImg}/professions/bg/first-aid.png`
+	const FishingCardImg = `${basePathImg}/professions/bg/fishing.png`
+	const JunkyardTinkeringCardImg = `${basePathImg}/professions/bg/junkyard-tinkering.png`
 
 
 	/* Фото pvp гл стр */
@@ -526,274 +544,274 @@ const Card = ({home, raidsArmourWarrior}) => {
 							<div className="tab-pane fade fade show active mt-5" id="pills-professions">
 								<div className="card-box d-flex flex-wrap justify-content-center justify-content-xl-start">
 									<div className="card card-professions card-alchemy">
-										<a href="html/professions/alchemy.html">
-											<img src="img/mainpage/bg/professions/alchemy.png" className="card-img" alt="Алхимия" />
-										</a>
+										<Link to="professions/alchemy">
+											<img src={AlchemyCardImg} className="card-img" alt="Алхимия" />
+										</Link>
 										<div className="card-body">
-											<a className="card-link" href="html/professions/alchemy.html">
+											<Link className="card-link" to="professions/alchemy">
 												<h3 className="card-title card-title-professions card-title-alchemy">Алхимия</h3>
-											</a>
+											</Link>
 											<p className="card-text card-text-professions card-text-alchemy">С помощью алхимии можно создавать мощные зелья, настои и элексиры</p>
 										</div>
 										<div className="card-footer d-flex justify-content-between align-items-center">
-											<p className="card-price card-price-professions card-price-alchemy">от 200<img className="dollar" src="img/mainpage/bg/gold/dollar.png" alt="dollar" /></p>
-											<a href="html/professions/alchemy.html" className="card-btn card-btn-professions card-btn-alchemy">Подробнее</a>
+											<p className="card-price card-price-professions card-price-alchemy">от 200<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="professions/alchemy" className="card-btn card-btn-professions card-btn-alchemy">Подробнее</Link>
 										</div>
 									</div>
 
 									<div className="card card-professions card-mining">
-										<a href="html/professions/mining.html">
-											<img src="img/mainpage/bg/professions/mining.png" className="card-img" alt="Горное дело" />
-										</a>
+										<Link to="professions/mining">
+											<img src={MiningCardImg} className="card-img" alt="Горное дело" />
+										</Link>
 										<div className="card-body">
-											<a className="card-link" href="html/professions/mining.html">
+											<Link className="card-link" to="professions/mining">
 												<h3 className="card-title card-title-professions card-title-mining">Горное дело</h3>
-											</a>
+											</Link>
 											<p className="card-text card-text-professions card-text-mining">Горное дело позволяет добывать руду во множестве мест по всему миру</p>
 										</div>
 										<div className="card-footer d-flex justify-content-between align-items-center">
-											<p className="card-price card-price-professions card-price-mining">от 200<img class="dollar" src="img/mainpage/bg/gold/dollar.png" alt="dollar" /></p>
-											<a href="html/professions/mining.html" className="card-btn card-btn-professions card-btn-mining">Подробнее</a>
+											<p className="card-price card-price-professions card-price-mining">от 200<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="professions/mining" className="card-btn card-btn-professions card-btn-mining">Подробнее</Link>
 										</div>
 									</div>
 
 									<div className="card card-professions card-engineering">
-										<a href="html/professions/engineering.html">
-											<img src="img/mainpage/bg/professions/engineering.png" className="card-img" alt="Инженерное дело" />
-										</a>
+										<Link to="professions/engineering">
+											<img src={EngineeringCardImg} className="card-img" alt="Инженерное дело" />
+										</Link>
 										<div className="card-body">
-											<a className="card-link" href="html/professions/engineering.html">
+											<Link className="card-link" to="professions/engineering">
 												<h3 className="card-title card-title-professions card-title-engineering">Инженерное дело</h3>
-											</a>
+											</Link>
 											<p className="card-text card-text-professions card-text-engineering">Инженеры превращают различные материалы в интересные и полезные гаджеты, необычные предметы и даже в эпические шлемы и очки, оружия дальнего боя и прицелы к ним</p>
 										</div>
 										<div className="card-footer d-flex justify-content-between align-items-center">
-											<p className="card-price card-price-professions card-price-engineering">от 200<img className="dollar" src="img/mainpage/bg/gold/dollar.png" alt="dollar" /></p>
-											<a href="html/professions/engineering.html" className="card-btn card-btn-professions card-btn-engineering">Подробнее</a>
+											<p className="card-price card-price-professions card-price-engineering">от 200<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="professions/engineering" className="card-btn card-btn-professions card-btn-engineering">Подробнее</Link>
 										</div>
 									</div>
 
 									<div className="card card-professions card-leatherworking">
-										<a href="html/professions/leatherworking.html">
-											<img src="img/mainpage/bg/professions/leatherworking.png" className="card-img" alt="Кожевничество" />
-										</a>
+										<Link to="professions/leatherworking">
+											<img src={LeatherworkingCardImg} className="card-img" alt="Кожевничество" />
+										</Link>
 										<div className="card-body">
-											<a className="card-link" href="html/professions/leatherworking.html">
+											<Link className="card-link" to="professions/leatherworking">
 												<h3 className="card-title card-title-professions card-title-leatherworking">Кожевничество</h3>
-											</a>
+											</Link>
 											<p className="card-text card-text-professions card-text-leatherworking">Ремесленная профессия, которая использует шкуры и кожу для изготовления доспехов и барабанов</p>
 										</div>
 										<div className="card-footer d-flex justify-content-between align-items-center">
-											<p className="card-price card-price-professions card-price-leatherworking">от 200<img className="dollar" src="img/mainpage/bg/gold/dollar.png" alt="dollar" /></p>
-											<a href="html/professions/leatherworking.html" className="card-btn card-btn-professions card-btn-leatherworking">Подробнее</a>
+											<p className="card-price card-price-professions card-price-leatherworking">от 200<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="professions/leatherworking" className="card-btn card-btn-professions card-btn-leatherworking">Подробнее</Link>
 										</div>
 									</div>
 
 									<div className="card card-professions card-blacksmithing">
-										<a href="html/professions/blacksmithing.html">
-											<img src="img/mainpage/bg/professions/blacksmithing.png" className="card-img" alt="Кузнечное дело" />
-										</a>
+										<Link to="professions/blacksmithing">
+											<img src={BlacksmithingCardImg} className="card-img" alt="Кузнечное дело" />
+										</Link>
 										<div className="card-body">
-											<a className="card-link" href="html/professions/blacksmithing.html">
+											<Link className="card-link" to="professions/blacksmithing">
 												<h3 className="card-title card-title-professions card-title-blacksmithing">Кузнечное дело</h3>
-											</a>
+											</Link>
 											<p className="card-text card-text-professions card-text-blacksmithing">Ремесленная профессия которая использует различные металлы для изготовления пластинчатых доспехов, оружия и других полезных предметов</p>
 										</div>
 										<div className="card-footer d-flex justify-content-between align-items-center">
-											<p className="card-price card-price-professions card-price-blacksmithing">от 200<img className="dollar" src="img/mainpage/bg/gold/dollar.png" alt="dollar" /></p>
-											<a href="html/professions/blacksmithing.html" className="card-btn card-btn-professions card-btn-blacksmithing">Подробнее</a>
+											<p className="card-price card-price-professions card-price-blacksmithing">от 200<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="professions/blacksmithing" className="card-btn card-btn-professions card-btn-blacksmithing">Подробнее</Link>
 										</div>
 									</div>
 
 									<div className="card card-professions card-enchanting">
-										<a href="html/professions/enchanting.html">
-											<img src="img/mainpage/bg/professions/enchanting.png" className="card-img" alt="Наложение чар" />
-										</a>
+										<Link to="professions/enchanting">
+											<img src={EnchantingCardImg} className="card-img" alt="Наложение чар" />
+										</Link>
 										<div className="card-body">
-											<a className="card-link" href="html/professions/enchanting.html">
+											<Link className="card-link" to="professions/enchanting">
 												<h3 className="card-title card-title-professions card-title-enchanting">Наложение чар</h3>
-											</a>
+											</Link>
 											<p className="card-text card-text-professions card-text-enchanting">Наложение чар позволяет получать материалы для зачаровывания путем распыления брони необычного или лучшего качества и превращать их в постоянные улучшения для собственной брони или брони союзников</p>
 										</div>
 										<div className="card-footer d-flex justify-content-between align-items-center">
-											<p className="card-price card-price-professions card-price-enchanting">от 200<img className="dollar" src="img/mainpage/bg/gold/dollar.png" alt="dollar" /></p>
-											<a href="html/professions/enchanting.html" className="card-btn card-btn-professions card-btn-enchanting">Подробнее</a>
+											<p className="card-price card-price-professions card-price-enchanting">от 200<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="professions/enchanting" className="card-btn card-btn-professions card-btn-enchanting">Подробнее</Link>
 										</div>
 									</div>
 
 									<div className="card card-professions card-inscription">
-										<a href="html/professions/inscription.html">
-											<img src="img/mainpage/bg/professions/inscription.png" className="card-img" alt="Начертание" />
-										</a>
+										<Link to="professions/inscription">
+											<img src={InscriptionCardImg} className="card-img" alt="Начертание" />
+										</Link>
 										<div className="card-body">
-											<a className="card-link" href="html/professions/inscription.html">
+											<Link className="card-link" to="professions/inscription">
 												<h3 className="card-title card-title-professions card-title-inscription">Начертание</h3>
-											</a>
+											</Link>
 											<p className="card-text card-text-professions card-text-inscription">Начертание позволяет создавать символы, свитки и карты с помощью чернил получаемых при измельчении трав</p>
 										</div>
 										<div className="card-footer d-flex justify-content-between align-items-center">
-											<p className="card-price card-price-professions card-price-inscription">от 200<img className="dollar" src="img/mainpage/bg/gold/dollar.png" alt="dollar" /></p>
-											<a href="html/professions/inscription.html" className="card-btn card-btn-professions card-btn-inscription">Подробнее</a>
+											<p className="card-price card-price-professions card-price-inscription">от 200<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="professions/inscription" className="card-btn card-btn-professions card-btn-inscription">Подробнее</Link>
 										</div>
 									</div>
 
 									<div className="card card-professions card-tailoring">
-										<a href="html/professions/tailoring.html">
-											<img src="img/mainpage/bg/professions/tailoring.png" className="card-img" alt="Портняжное дело" />
-										</a>
+										<Link to="professions/tailoring">
+											<img src={TailoringCardImg} className="card-img" alt="Портняжное дело" />
+										</Link>
 										<div className="card-body">
-											<a className="card-link" href="html/professions/tailoring.html">
+											<Link className="card-link" to="professions/tailoring">
 												<h3 className="card-title card-title-professions card-title-tailoring">Портняжное дело</h3>
-											</a>
+											</Link>
 											<p className="card-text card-text-professions card-text-tailoring">Ремесленная профессия которая использует различные ткани для создания брони, сумок, чародейских нитей и даже ковров-самолетов</p>
 										</div>
 										<div className="card-footer d-flex justify-content-between align-items-center">
-											<p className="card-price card-price-professions card-price-tailoring">от 200<img className="dollar" src="img/mainpage/bg/gold/dollar.png" alt="dollar" /></p>
-											<a href="html/professions/tailoring.html" className="card-btn card-btn-professions card-btn-tailoring">Подробнее</a>
+											<p className="card-price card-price-professions card-price-tailoring">от 200<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="professions/tailoring" className="card-btn card-btn-professions card-btn-tailoring">Подробнее</Link>
 										</div>
 									</div>
 
 									<div className="card card-professions card-skinning">
-										<a href="html/professions/skinning.html">
-											<img src="img/mainpage/bg/professions/skinning.png" className="card-img" alt="Снятие шкур" />
-										</a>
+										<Link to="professions/skinning">
+											<img src={SkinningCardImg} className="card-img" alt="Снятие шкур" />
+										</Link>
 										<div className="card-body">
-											<a className="card-link" href="html/professions/skinning.html">
+											<Link className="card-link" to="professions/skinning">
 												<h3 className="card-title card-title-professions card-title-skinning">Снятие шкур</h3>
-											</a>
+											</Link>
 											<p className="card-text card-text-professions card-text-skinning">Собирательная профессия, позволяющая снимать кожу, шкуры, чешуйки и панцири с убитых животных, драконов, нерубов и силитидов</p>
 										</div>
 										<div className="card-footer d-flex justify-content-between align-items-center">
-											<p className="card-price card-price-professions card-price-skinning">от 200<img className="dollar" src="img/mainpage/bg/gold/dollar.png" alt="dollar" /></p>
-											<a href="html/professions/skinning.html" className="card-btn card-btn-professions card-btn-skinning">Подробнее</a>
+											<p className="card-price card-price-professions card-price-skinning">от 200<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="professions/skinning" className="card-btn card-btn-professions card-btn-skinning">Подробнее</Link>
 										</div>
 									</div>
 
 									<div className="card card-professions card-herbalism">
-										<a href="html/professions/herbalism.html">
-											<img src="img/mainpage/bg/professions/herbalism.png" className="card-img" alt="Травничество" />
-										</a>
+										<Link to="professions/herbalism">
+											<img src={HerbalismCardImg} className="card-img" alt="Травничество" />
+										</Link>
 										<div className="card-body">
-											<a className="card-link" href="html/professions/herbalism.html">
+											<Link className="card-link" to="professions/herbalism">
 												<h3 className="card-title card-title-professions card-title-herbalism">Травничество</h3>
-											</a>
+											</Link>
 											<p className="card-text card-text-professions card-text-herbalism">Собирательная профессия позволяющая собирать травы</p>
 										</div>
 										<div className="card-footer d-flex justify-content-between align-items-center">
-											<p className="card-price card-price-professions card-price-herbalism">от 200<img className="dollar" src="img/mainpage/bg/gold/dollar.png" alt="dollar" /></p>
-											<a href="html/professions/herbalism.html" className="card-btn card-btn-professions card-btn-herbalism">Подробнее</a>
+											<p className="card-price card-price-professions card-price-herbalism">от 200<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="professions/herbalism" className="card-btn card-btn-professions card-btn-herbalism">Подробнее</Link>
 										</div>
 									</div>
 
 									<div className="card card-professions card-jewelcrafting">
-										<a href="html/professions/jewelcrafting.html">
-											<img src="img/mainpage/bg/professions/jewelcrafting.png" className="card-img" alt="Ювелирное дело" />
-										</a>
+										<Link to="professions/jewelcrafting">
+											<img src={JewelcraftingCardImg} className="card-img" alt="Ювелирное дело" />
+										</Link>
 										<div className="card-body">
-											<a className="card-link" href="html/professions/jewelcrafting.html">
+											<Link className="card-link" to="professions/jewelcrafting">
 												<h3 className="card-title card-title-professions card-title-jewelcrafting">Ювелирное дело</h3>
-											</a>
+											</Link>
 											<p className="card-text card-text-professions card-text-jewelcrafting">Ремесленная профессия с помощью которой можно создавать различные драгоценные камни, повышающие различные характеристики. Эти камни могут быть вставлены в экипировку</p>
 										</div>
 										<div className="card-footer d-flex justify-content-between align-items-center">
-											<p className="card-price card-price-professions card-price-jewelcrafting">от 200<img className="dollar" src="img/mainpage/bg/gold/dollar.png" alt="dollar" /></p>
-											<a href="html/professions/jewelcrafting.html" className="card-btn card-btn-professions card-btn-jewelcrafting">Подробнее</a>
+											<p className="card-price card-price-professions card-price-jewelcrafting">от 200<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="professions/jewelcrafting" className="card-btn card-btn-professions card-btn-jewelcrafting">Подробнее</Link>
 										</div>
 									</div>
 
 									<div className="card card-professions card-archaeology">
-										<a href="html/professions/archaeology.html">
-											<img src="img/mainpage/bg/professions/archaeology.png" className="card-img" alt="Археология" />
-										</a>
+										<Link to="professions/archaeology">
+											<img src={ArchaeologyCardImg} className="card-img" alt="Археология" />
+										</Link>
 										<div className="card-body">
-											<a className="card-link" href="html/professions/archaeology.html">
+											<Link className="card-link" to="professions/archaeology">
 												<h3 className="card-title card-title-professions card-title-archaeology">Археология</h3>
-											</a>
+											</Link>
 											<p className="card-text card-text-professions card-text-archaeology">Вторичная профессия позволяющая увидеть, что скрывают в себе глубины Азерота. Археологи должны путешествовать по всему миру в поисках фрагментов древних артефактов, которые содержат интереснейшие частицы истории мира</p>
 										</div>
 										<div className="card-footer d-flex justify-content-between align-items-center">
-											<p className="card-price card-price-professions card-price-archaeology">от 200<img className="dollar" src="img/mainpage/bg/gold/dollar.png" alt="dollar" /></p>
-											<a href="html/professions/archaeology.html" className="card-btn card-btn-professions card-btn-archaeology">Подробнее</a>
+											<p className="card-price card-price-professions card-price-archaeology">от 200<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="professions/archaeology" className="card-btn card-btn-professions card-btn-archaeology">Подробнее</Link>
 										</div>
 									</div>
 
 									<div className="card card-professions card-riding">
-										<a href="html/professions/riding.html">
-											<img src="img/mainpage/bg/professions/riding.png" className="card-img" alt="Верховая езда" />
-										</a>
+										<Link to="professions/riding">
+											<img src={RidingCardImg} className="card-img" alt="Верховая езда" />
+										</Link>
 										<div className="card-body">
-											<a className="card-link" href="html/professions/riding.html">
+											<Link className="card-link" to="professions/riding">
 												<h3 className="card-title card-title-professions card-title-riding">Верховая езда</h3>
-											</a>
+											</Link>
 											<p className="card-text card-text-professions card-text-riding">Пассивный навык, позволяющий использовать верховых животных для передвижения по всему миру. Чем выше навык верховой езды, тем быстрее ваши верховые животные могут передвигаться по миру</p>
 										</div>
 										<div className="card-footer d-flex justify-content-between align-items-center">
-											<p className="card-price card-price-professions card-price-riding">от 200<img className="dollar" src="img/mainpage/bg/gold/dollar.png" alt="dollar" /></p>
-											<a href="html/professions/riding.html" className="card-btn card-btn-professions card-btn-riding">Подробнее</a>
+											<p className="card-price card-price-professions card-price-riding">от 200<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="professions/riding" className="card-btn card-btn-professions card-btn-riding">Подробнее</Link>
 										</div>
 									</div>
 
 									<div className="card card-professions card-cooking">
-										<a href="html/professions/cooking.html">
-											<img src="img/mainpage/bg/professions/cooking.png" className="card-img" alt="Кулинария" />
-										</a>
+										<Link to="professions/cooking">
+											<img src={CookingCardImg} className="card-img" alt="Кулинария" />
+										</Link>
 										<div className="card-body">
-											<a className="card-link" href="html/professions/cooking.html">
+											<Link className="card-link" to="professions/cooking">
 												<h3 className="card-title card-title-professions card-title-cooking">Кулинария</h3>
-											</a>
+											</Link>
 											<p className="card-text card-text-professions card-text-cooking">Вторичная профессия, позволяющая комбинировать рыбу или мясо, превращая их во вкусную еду и напитки, восстанавливающие здоровье или ману, и дающие полезные боевые баффы</p>
 										</div>
 										<div className="card-footer d-flex justify-content-between align-items-center">
-											<p className="card-price card-price-professions card-price-cooking">от 200<img className="dollar" src="img/mainpage/bg/gold/dollar.png" alt="dollar" /></p>
-											<a href="html/professions/cooking.html" className="card-btn card-btn-professions card-btn-cooking">Подробнее</a>
+											<p className="card-price card-price-professions card-price-cooking">от 200<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="professions/cooking" className="card-btn card-btn-professions card-btn-cooking">Подробнее</Link>
 										</div>
 									</div>
 
 									<div className="card card-professions card-first-aid">
-										<a href="html/professions/first-aid.html">
-											<img src="img/mainpage/bg/professions/first-aid.png" className="card-img" alt="Первая помощь" />
-										</a>
+										<Link to="professions/first-aid">
+											<img src={FirstAidCardImg} className="card-img" alt="Первая помощь" />
+										</Link>
 										<div className="card-body">
-											<a className="card-link" href="html/professions/first-aid.html">
+											<Link className="card-link" to="professions/first-aid">
 												<h3 className="card-title card-title-professions card-title-first-aid">Первая помощь</h3>
-											</a>
+											</Link>
 											<p className="card-text card-text-professions card-text-cooking">Вторичная профессия позволяющая превращать ткани в бинты. Очень полезна классам, у которых нет собственного лечащего заклинания</p>
 										</div>
 										<div className="card-footer d-flex justify-content-between align-items-center">
-											<p className="card-price card-price-professions card-price-first-aid">от 200<img className="dollar" src="img/mainpage/bg/gold/dollar.png" alt="dollar" /></p>
-											<a href="html/professions/first-aid.html" className="card-btn card-btn-professions card-btn-first-aid">Подробнее</a>
+											<p className="card-price card-price-professions card-price-first-aid">от 200<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="professions/first-aid" className="card-btn card-btn-professions card-btn-first-aid">Подробнее</Link>
 										</div>
 									</div>
 
 									<div className="card card-professions card-fishing">
-										<a href="html/professions/fishing.html">
-											<img src="img/mainpage/bg/professions/fishing.png" className="card-img" alt="Рыбная ловля" />
-										</a>
+										<Link to="professions/fishing">
+											<img src={FishingCardImg} className="card-img" alt="Рыбная ловля" />
+										</Link>
 										<div className="card-body">
-											<a className="card-link" href="html/professions/fishing.html">
+											<Link className="card-link" to="professions/fishing">
 												<h3 className="card-title card-title-professions card-title-fishing">Рыбная ловля</h3>
-											</a>
+											</Link>
 											<p className="card-text card-text-professions card-text-fishing">Вторичная собирательная профессия, позволяющая рыбачить в различных водоемах по всему миру</p>
 										</div>
 										<div className="card-footer d-flex justify-content-between align-items-center">
-											<p className="card-price card-price-professions card-price-fishing">от 200<img class="dollar" src="img/mainpage/bg/gold/dollar.png" alt="dollar" /></p>
-											<a href="html/professions/fishing.html" className="card-btn card-btn-professions card-btn-fishing">Подробнее</a>
+											<p className="card-price card-price-professions card-price-fishing">от 200<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="professions/fishing" className="card-btn card-btn-professions card-btn-fishing">Подробнее</Link>
 										</div>
 									</div>
 
-									<div className="card card-professions card-artisanal-mechanics">
-										<a href="html/professions/artisanal-mechanics.html">
-											<img src="img/mainpage/bg/professions/artisanal-mechanics.png" className="card-img" alt="Кустарная механика" />
-										</a>
+									<div className="card card-professions card-junkyard-tinkering">
+										<Link to="professions/junkyard-tinkering">
+											<img src={JunkyardTinkeringCardImg} className="card-img" alt="Кустарная механика" />
+										</Link>
 										<div className="card-body">
-											<a className="card-link" href="html/professions/artisanal-mechanics.html">
-												<h3 className="card-title card-title-professions card-title-artisanal-mechanics">Кустарная механика</h3>
-											</a>
-											<p className="card-text card-text-professions card-text-artisanal-mechanics">Паскал-К0Р0Л6, огромный железный робот, изготавливающий снаряжение, средства передвижения, игрушки, расходные материалы и другие полезные вещи в обмен на запчасти и аккумуляторы, которые можно добывать в Мехагоне. Также на острове можно находить чертежи новых предметов</p>
+											<Link className="card-link" to="professions/junkyard-tinkering">
+												<h3 className="card-title card-title-professions card-title-junkyard-tinkering">Кустарная механика</h3>
+											</Link>
+											<p className="card-text card-text-professions card-text-junkyard-tinkering">Паскал-К0Р0Л6, огромный железный робот, изготавливающий снаряжение, средства передвижения, игрушки, расходные материалы и другие полезные вещи в обмен на запчасти и аккумуляторы, которые можно добывать в Мехагоне. Также на острове можно находить чертежи новых предметов</p>
 										</div>
 										<div className="card-footer d-flex justify-content-between align-items-center">
-											<p className="card-price card-price-professions card-price-artisanal-mechanics">от 200<img className="dollar" src="img/mainpage/bg/gold/dollar.png" alt="dollar" /></p>
-											<a href="html/professions/artisanal-mechanics.html" className="card-btn card-btn-professions card-btn-artisanal-mechanics">Подробнее</a>
+											<p className="card-price card-price-professions card-price-junkyard-tinkering">от 200<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="professions/junkyard-tinkering" className="card-btn card-btn-professions card-btn-junkyard-tinkering">Подробнее</Link>
 										</div>
 									</div>
 								</div>

@@ -6,7 +6,6 @@ import './style.sass'
 import { BrowserRouter, Routes, Route } from "react-router";
 
 
-
 import Warrior  from "./pages/raids-armours/Warrior.tsx";
 import Druid  from "./pages/raids-armours/Druid.tsx";
 import Priest  from "./pages/raids-armours/Priest.tsx";
@@ -30,11 +29,9 @@ import ArtefactWeapons  from "./pages/weapons/Artefact.tsx";
 import DecorativeWeapons  from "./pages/weapons/Decorative.tsx";
 
 
-
 import Cloaks  from "./pages/armours/Cloaks.tsx";
 import Shields  from "./pages/armours/Shields.tsx";
 import FishingRods  from "./pages/armours/FishingRods.tsx";
-
 
 
 import WaterMounts  from "./pages/mounts/Water.tsx";
@@ -42,11 +39,27 @@ import EarthMounts  from "./pages/mounts/Earth.tsx";
 import FlyMounts  from "./pages/mounts/Fly.tsx";
 
 
-
 import HordeGold  from "./pages/gold/Horde.tsx";
 import AllianceGold  from "./pages/gold/Alliance.tsx";
 
 
+import Alchemy  from "./pages/professions/Alchemy.tsx";
+import Mining  from "./pages/professions/Mining.tsx";
+import Engineering  from "./pages/professions/Engineering.tsx";
+import Leatherworking  from "./pages/professions/Leatherworking.tsx";
+import Blacksmithing  from "./pages/professions/Blacksmithing.tsx";
+import Enchanting  from "./pages/professions/Enchanting.tsx";
+import Inscription  from "./pages/professions/Inscription.tsx";
+import Tailoring  from "./pages/professions/Tailoring.tsx";
+import Skinning  from "./pages/professions/Skinning.tsx";
+import Herbalism  from "./pages/professions/Herbalism.tsx";
+import Jewelcrafting  from "./pages/professions/Jewelcrafting.tsx";
+import Archaeology  from "./pages/professions/Archaeology.tsx";
+import Riding  from "./pages/professions/Riding.tsx";
+import Cooking  from "./pages/professions/Jewelcrafting.tsx";
+import FirstAid  from "./pages/professions/FirstAid.tsx";
+import Fishing  from "./pages/professions/Fishing.tsx";
+import JunkyardTinkering  from "./pages/professions/JunkyardTinkering.tsx";
 
 
 
@@ -103,8 +116,23 @@ createRoot(document.getElementById("root")!).render(
 				<Route path="gold/alliance" element={<AllianceGold />} />
 
 
-
-
+				<Route path="professions/alchemy" element={<Alchemy />} />
+				<Route path="professions/mining" element={<Mining />} />
+				<Route path="professions/engineering" element={<Engineering />} />
+				<Route path="professions/leatherworking" element={<Leatherworking />} />
+				<Route path="professions/blacksmithing" element={<Blacksmithing />} />
+				<Route path="professions/enchanting" element={<Enchanting />} />
+				<Route path="professions/inscription" element={<Inscription />} />
+				<Route path="professions/tailoring" element={<Tailoring />} />
+				<Route path="professions/skinning" element={<Skinning />} />
+				<Route path="professions/herbalism" element={<Herbalism />} />
+				<Route path="professions/jewelcrafting" element={<Jewelcrafting />} />
+				<Route path="professions/archaeology" element={<Archaeology />} />
+				<Route path="professions/riding" element={<Riding />} />
+				<Route path="professions/cooking" element={<Cooking />} />
+				<Route path="professions/first-aid" element={<FirstAid />} />
+				<Route path="professions/fishing" element={<Fishing />} />
+				<Route path="professions/junkyard-tinkering" element={<JunkyardTinkering />} />
 
 
 				<Route path="pvp/honour" element={<Honour />} />
