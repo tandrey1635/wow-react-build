@@ -15,8 +15,12 @@
 
 a {
   display: flex;
+  font-weight: 700;
   text-decoration: none;
   color: unset;
+}
+a:hover {
+  cursor: url("/src/assets/icons/cursor-action.png"), auto;
 }
 
 table {
@@ -48,12 +52,21 @@ textarea {
 button {
   border: none;
   outline: none;
-  cursor: pointer;
+  cursor: url("/src/assets/icons/cursor-action.png"), auto !important;
 }
 
 img {
   width: 100%;
   height: 100%;
+}
+
+/* Сброс bootstrap стилей */
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 0;
+}
+
+body, input {
+  cursor: url("/src/assets/icons/cursor-text.png"), auto;
 }
 
 /* Прижать подвал flex */
@@ -120,6 +133,31 @@ footer {
   font-size: 64px;
   filter: brightness(125%);
   text-transform: uppercase;
+}
+@media (max-width: 767.98px) {
+  .announcement__header, .announcement__subheader {
+    font-size: 56px;
+  }
+}
+@media (max-width: 676px) {
+  .announcement__header, .announcement__subheader {
+    font-size: 48px;
+  }
+}
+@media (max-width: 575.98px) {
+  .announcement__header, .announcement__subheader {
+    font-size: 42px;
+  }
+}
+@media (max-width: 480px) {
+  .announcement__header, .announcement__subheader {
+    font-size: 36px;
+  }
+}
+@media (max-width: 425px) {
+  .announcement__header, .announcement__subheader {
+    font-size: 28px;
+  }
 }
 .announcement__header_warrior, .announcement__subheader_warrior {
   color: #854c27;
@@ -197,16 +235,54 @@ footer {
   color: #ff0033;
 }
 .announcement__subheader {
+  margin-top: 20px;
   font-size: 36px;
   text-transform: none;
+}
+@media (max-width: 575.98px) {
+  .announcement__subheader {
+    font-size: 32px;
+  }
+}
+@media (max-width: 480px) {
+  .announcement__subheader {
+    font-size: 26px;
+  }
+}
+@media (max-width: 425px) {
+  .announcement__subheader {
+    font-size: 22px;
+  }
 }
 .announcement__subheader_main {
   font-size: 64px;
   color: #ffc107;
   text-transform: uppercase;
 }
-.announcement__menu {
-  max-width: 85%;
+@media (max-width: 767.98px) {
+  .announcement__subheader_main {
+    font-size: 56px;
+  }
+}
+@media (max-width: 676px) {
+  .announcement__subheader_main {
+    font-size: 48px;
+  }
+}
+@media (max-width: 575.98px) {
+  .announcement__subheader_main {
+    font-size: 42px;
+  }
+}
+@media (max-width: 480px) {
+  .announcement__subheader_main {
+    font-size: 36px;
+  }
+}
+@media (max-width: 425px) {
+  .announcement__subheader_main {
+    font-size: 28px;
+  }
 }
 .announcement__text {
   margin-top: 20px;
@@ -215,6 +291,21 @@ footer {
   font-weight: 900;
   color: #564fff;
   filter: brightness(125%);
+}
+@media (max-width: 575.98px) {
+  .announcement__text {
+    font-size: 26px;
+  }
+}
+@media (max-width: 480px) {
+  .announcement__text {
+    font-size: 24px;
+  }
+}
+@media (max-width: 425px) {
+  .announcement__text {
+    font-size: 20px;
+  }
 }
 
 .promo {
@@ -1372,11 +1463,6 @@ footer {
   color: #9fa3e5;
   padding: 10px;
 }
-@media (max-width: 320px) {
-  .nav__btn {
-    font-size: 14px;
-  }
-}
 .nav__btn:hover {
   filter: brightness(125%);
 }
@@ -1434,23 +1520,18 @@ footer {
 .services .nav-link {
   width: 250px;
 }
-@media (max-width: 840px) {
+@media (max-width: 991.98px) {
   .services .nav-link {
     width: 180px;
     font-size: 14px;
   }
 }
-@media (max-width: 690px) {
-  .services .nav-link {
-    width: 180px;
-  }
-}
-@media (max-width: 429px) {
+@media (max-width: 480px) {
   .services .nav-link {
     width: 150px;
   }
 }
-@media (max-width: 369px) {
+@media (max-width: 375px) {
   .services .nav-link {
     width: 125px;
     font-size: 12px;
@@ -1524,17 +1605,17 @@ footer {
   background: #000;
   border-radius: 20px;
 }
-@media (max-width: 840px) {
+@media (max-width: 991.98px) {
   .services .nav-item-raids-armour:hover .nav-raids-armour, .services .nav-item-professions:hover .nav-professions, .services .nav-item-raids:hover .nav-raids, .services .nav-item-achievments:hover .nav-achievments {
     width: 400px;
   }
 }
-@media (max-width: 429px) {
+@media (max-width: 480px) {
   .services .nav-item-raids-armour:hover .nav-raids-armour, .services .nav-item-professions:hover .nav-professions, .services .nav-item-raids:hover .nav-raids, .services .nav-item-achievments:hover .nav-achievments {
     width: 340px;
   }
 }
-@media (max-width: 369px) {
+@media (max-width: 375px) {
   .services .nav-item-raids-armour:hover .nav-raids-armour, .services .nav-item-professions:hover .nav-professions, .services .nav-item-raids:hover .nav-raids, .services .nav-item-achievments:hover .nav-achievments {
     width: 290px;
   }
@@ -1548,17 +1629,17 @@ footer {
   place-items: center;
   border-radius: 20px;
 }
-@media (max-width: 840px) {
+@media (max-width: 991.98px) {
   .services .nav-item-weapons:hover .nav-weapons, .services .nav-item-armor:hover .nav-armor, .services .nav-item-mounts:hover .nav-mounts, .services .nav-item-gold:hover .nav-gold, .services .nav-item-pvp:hover .nav-pvp, .services .nav-item-dungeons:hover .nav-dungeons, .services .nav-item-lvl-up:hover .nav-lvl-up {
     width: 200px;
   }
 }
-@media (max-width: 429px) {
+@media (max-width: 480px) {
   .services .nav-item-weapons:hover .nav-weapons, .services .nav-item-armor:hover .nav-armor, .services .nav-item-mounts:hover .nav-mounts, .services .nav-item-gold:hover .nav-gold, .services .nav-item-pvp:hover .nav-pvp, .services .nav-item-dungeons:hover .nav-dungeons, .services .nav-item-lvl-up:hover .nav-lvl-up {
     width: 170px;
   }
 }
-@media (max-width: 369px) {
+@media (max-width: 375px) {
   .services .nav-item-weapons:hover .nav-weapons, .services .nav-item-armor:hover .nav-armor, .services .nav-item-mounts:hover .nav-mounts, .services .nav-item-gold:hover .nav-gold, .services .nav-item-pvp:hover .nav-pvp, .services .nav-item-dungeons:hover .nav-dungeons, .services .nav-item-lvl-up:hover .nav-lvl-up {
     width: 145px;
   }
@@ -1574,17 +1655,17 @@ footer {
   background: #000;
   border-radius: 20px;
 }
-@media (max-width: 840px) {
+@media (max-width: 991.98px) {
   .services__item-raids-armour:hover .services__nav-class-raids-armour {
     width: 400px;
   }
 }
-@media (max-width: 429px) {
+@media (max-width: 480px) {
   .services__item-raids-armour:hover .services__nav-class-raids-armour {
     width: 340px;
   }
 }
-@media (max-width: 369px) {
+@media (max-width: 375px) {
   .services__item-raids-armour:hover .services__nav-class-raids-armour {
     width: 290px;
   }
@@ -1604,30 +1685,16 @@ body {
   background: #0f0a1f;
 }
 
-body, label, input {
+label {
   cursor: url("/src/assets/icons/cursor-text.png"), auto;
-}
-
-button {
-  cursor: url("/src/assets/icons/cursor-action.png"), auto;
-}
-
-[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
-  cursor: url("/src/assets/icons/cursor-action.png"), auto;
-}
-
-a {
-  font-weight: 700;
-}
-a:hover {
-  color: #564fff;
-  cursor: url("/src/assets/icons/cursor-action.png"), auto;
-}
-
-p {
-  margin-bottom: 0;
 }
 
 .container {
   max-width: 1180px !important;
+}
+
+@media (max-width: 480px) {
+  main > h1 {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -2,7 +2,7 @@ const Announcement = ({ home, warrior, druid, priest, mage, monk, hunter, demonH
 	return (
 		<section className="announcement">
 			<div className="container">
-				<div className="announcement__description d-flex flex-column justify-content-center mx-auto my-5">
+				<div className="announcement__description my-4 my-lg-5">
 					<h1
 						className={`${
 							warrior

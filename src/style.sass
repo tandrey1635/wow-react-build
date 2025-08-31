@@ -3,7 +3,6 @@
 
 @use 'sass/global/flex-footer'
 
-
 @use 'sass/global/header'
 @use 'sass/global/announcement'
 @use 'sass/global/promo'
@@ -15,40 +14,22 @@
 
 
 
-
 @use 'sass/nav'
 @use 'sass/services'
-
-
 
 *
 	font-family: $mainFont
 
-
 body
 	background: $bodyBg
 
-
-body, label, input
+label
 	cursor: $cursorText
-
-button
-	cursor: $cursorAction
-
-[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled)
-	cursor: $cursorAction
-
-
-a
-	font-weight: 700
-	&:hover
-		color: $mainColor
-		cursor: $cursorAction
-
-
-p
-	margin-bottom: 0
 
 
 .container
 	max-width: 1180px!important
+
+main > h1
+	@media ( max-width: 480px )
+		display: none
