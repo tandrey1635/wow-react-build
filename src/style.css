@@ -156,7 +156,7 @@ footer {
 }
 @media (max-width: 425px) {
   .announcement__header, .announcement__subheader {
-    font-size: 28px;
+    font-size: 32px;
   }
 }
 .announcement__header_warrior, .announcement__subheader_warrior {
@@ -281,7 +281,7 @@ footer {
 }
 @media (max-width: 425px) {
   .announcement__subheader_main {
-    font-size: 28px;
+    font-size: 32px;
   }
 }
 .announcement__text {
