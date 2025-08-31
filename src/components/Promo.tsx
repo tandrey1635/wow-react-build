@@ -1,4 +1,4 @@
-const Promo = ({ warrior, druid, priest, mage, monk, hunter, demonHunter, paladin, awakener, rogue, deathKnight, warlock, shaman, oneHandedWeapons, twoHandedWeapons, rangeWeapons, legendaryWeapons, artefactWeapons, decorativeWeapons, shields, cloaks, fishingRods, waterMounts, earthMounts, flyMounts, hordeGold, allianceGold, honour, arena, rbg }) => {
+const Promo = ({ warrior, druid, priest, mage, monk, hunter, demonHunter, paladin, awakener, rogue, deathKnight, warlock, shaman, oneHandedWeapons, twoHandedWeapons, rangeWeapons, legendaryWeapons, artefactWeapons, decorativeWeapons, shields, cloaks, fishingRods, waterMounts, earthMounts, flyMounts, hordeGold, allianceGold, alchemy, mining, engineering, leatherworking, blacksmithing, enchanting,  inscription, tailoring, skinning, herbalism, jewelcrafting, archaeology, riding, cooking, firstAid, fishing, junkyardTinkering, honour, arena, rbg }) => {
 	return (
 		<section className="promo">
 			<div className="container d-flex justify-content-between align-items-center flex-column flex-lg-row">
@@ -111,6 +111,57 @@ const Promo = ({ warrior, druid, priest, mage, monk, hunter, demonHunter, paladi
 							:
 						allianceGold
 							? "promo__raitings promo__raitings_alliance-gold"
+							:
+						alchemy
+							? "promo__raitings promo__raitings_alchemy"
+							:
+						mining
+							? "promo__raitings promo__raitings_mining"
+							:
+						engineering
+							? "promo__raitings promo__raitings_engineering"
+							:
+						leatherworking
+							? "promo__raitings promo__raitings_leatherworking"
+							:
+						blacksmithing
+							? "promo__raitings promo__raitings_blacksmithing"
+							:
+						enchanting
+							? "promo__raitings promo__raitings_enchanting"
+							:
+						inscription
+							? "promo__raitings promo__raitings_inscription"
+							:
+						tailoring
+							? "promo__raitings promo__raitings_tailoring"
+							:
+						skinning
+							? "promo__raitings promo__raitings_skinning"
+							:
+						herbalism
+							? "promo__raitings promo__raitings_herbalism"
+							:
+						jewelcrafting
+							? "promo__raitings promo__raitings_jewelcrafting"
+							:
+						archaeology
+							? "promo__raitings promo__raitings_archaeology"
+							:
+						riding
+							? "promo__raitings promo__raitings_riding"
+							:
+						cooking
+							? "promo__raitings promo__raitings_cooking"
+							:
+						firstAid
+							? "promo__raitings promo__raitings_first-aid"
+							:
+						fishing
+							? "promo__raitings promo__raitings_fishing"
+							:
+						junkyardTinkering
+							? "promo__raitings promo__raitings_junkyard-tinkering"
 							:
 						honour
 							? "promo__raitings promo__raitings_honour"

@@ -56,7 +56,7 @@ import Herbalism  from "./pages/professions/Herbalism.tsx";
 import Jewelcrafting  from "./pages/professions/Jewelcrafting.tsx";
 import Archaeology  from "./pages/professions/Archaeology.tsx";
 import Riding  from "./pages/professions/Riding.tsx";
-import Cooking  from "./pages/professions/Jewelcrafting.tsx";
+import Cooking  from "./pages/professions/Cooking.tsx";
 import FirstAid  from "./pages/professions/FirstAid.tsx";
 import Fishing  from "./pages/professions/Fishing.tsx";
 import JunkyardTinkering  from "./pages/professions/JunkyardTinkering.tsx";

@@ -190,6 +190,9 @@ footer {
 .announcement__header_alliance-gold, .announcement__subheader_alliance-gold {
   color: #037afb;
 }
+.announcement__header_professions, .announcement__subheader_professions {
+  color: #673ab7;
+}
 .announcement__header_honour, .announcement__header_arena, .announcement__header_rbg, .announcement__subheader_honour, .announcement__subheader_arena, .announcement__subheader_rbg {
   color: #ff0033;
 }
@@ -311,6 +314,57 @@ footer {
 }
 .promo__raitings_alliance-gold {
   background: url("/src/assets/img/gold/bg/alliance.png") no-repeat center/contain;
+}
+.promo__raitings_alchemy {
+  background: url("/src/assets/img/professions/bg/alchemy.png") no-repeat center/contain;
+}
+.promo__raitings_mining {
+  background: url("/src/assets/img/professions/bg/mining.png") no-repeat center/contain;
+}
+.promo__raitings_engineering {
+  background: url("/src/assets/img/professions/bg/engineering.png") no-repeat center/contain;
+}
+.promo__raitings_leatherworking {
+  background: url("/src/assets/img/professions/bg/leatherworking.png") no-repeat center/contain;
+}
+.promo__raitings_blacksmithing {
+  background: url("/src/assets/img/professions/bg/blacksmithing.png") no-repeat center/contain;
+}
+.promo__raitings_enchanting {
+  background: url("/src/assets/img/professions/bg/enchanting.png") no-repeat center/contain;
+}
+.promo__raitings_inscription {
+  background: url("/src/assets/img/professions/bg/inscription.png") no-repeat center/contain;
+}
+.promo__raitings_tailoring {
+  background: url("/src/assets/img/professions/bg/tailoring.png") no-repeat center/contain;
+}
+.promo__raitings_skinning {
+  background: url("/src/assets/img/professions/bg/skinning.png") no-repeat center/contain;
+}
+.promo__raitings_herbalism {
+  background: url("/src/assets/img/professions/bg/herbalism.png") no-repeat center/contain;
+}
+.promo__raitings_jewelcrafting {
+  background: url("/src/assets/img/professions/bg/jewelcrafting.png") no-repeat center/contain;
+}
+.promo__raitings_archaeology {
+  background: url("/src/assets/img/professions/bg/archaeology.png") no-repeat center/contain;
+}
+.promo__raitings_riding {
+  background: url("/src/assets/img/professions/bg/riding.png") no-repeat center/contain;
+}
+.promo__raitings_cooking {
+  background: url("/src/assets/img/professions/bg/cooking.png") no-repeat center/contain;
+}
+.promo__raitings_first-aid {
+  background: url("/src/assets/img/professions/bg/first-aid.png") no-repeat center/contain;
+}
+.promo__raitings_fishing {
+  background: url("/src/assets/img/professions/bg/fishing.png") no-repeat center/contain;
+}
+.promo__raitings_junkyard-tinkering {
+  background: url("/src/assets/img/professions/bg/junkyard-tinkering.png") no-repeat center/contain;
 }
 .promo__raitings_honour {
   background: url("/src/assets/img/pvp/bg/honour.png") no-repeat center/contain;

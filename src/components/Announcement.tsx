@@ -1,4 +1,4 @@
-const Announcement = ({ home, warrior, druid, priest, mage, monk, hunter, demonHunter, paladin, awakener, rogue, deathKnight, warlock, shaman, oneHandedWeapons, twoHandedWeapons, rangeWeapons, legendaryWeapons, artefactWeapons, decorativeWeapons, shields, cloaks, fishingRods, waterMounts, earthMounts, flyMounts, hordeGold, allianceGold, honour, arena, rbg }) => {
+const Announcement = ({ home, warrior, druid, priest, mage, monk, hunter, demonHunter, paladin, awakener, rogue, deathKnight, warlock, shaman, oneHandedWeapons, twoHandedWeapons, rangeWeapons, legendaryWeapons, artefactWeapons, decorativeWeapons, shields, cloaks, fishingRods, waterMounts, earthMounts, flyMounts, hordeGold, allianceGold, alchemy, mining, engineering, leatherworking, blacksmithing, enchanting,  inscription, tailoring, skinning, herbalism, jewelcrafting, archaeology, riding, cooking, firstAid, fishing, junkyardTinkering, honour, arena, rbg }) => {
 	return (
 		<section className="announcement">
 			<div className="container">
@@ -85,6 +85,9 @@ const Announcement = ({ home, warrior, druid, priest, mage, monk, hunter, demonH
 								:
 							allianceGold
 								? "announcement__header announcement__header_alliance-gold"
+								:
+							alchemy || mining || engineering || leatherworking || blacksmithing || enchanting ||  inscription || tailoring || skinning || herbalism || jewelcrafting || archaeology || riding || cooking || firstAid || fishing || junkyardTinkering
+								? "announcement__header announcement__header_professions"
 								:
 							honour
 								? "announcement__header announcement__header_honour"
@@ -180,6 +183,57 @@ const Announcement = ({ home, warrior, druid, priest, mage, monk, hunter, demonH
 							allianceGold
 								? "Золото для игроков альянса"
 								:
+							alchemy
+								? "Алхимия"
+								:
+							mining
+								? "Горное дело"
+								:
+							engineering
+								? "Инженерное дело"
+								:
+							leatherworking
+								? "Кожевничество"
+								:
+							blacksmithing
+								? "Кузнечное дело"
+								:
+							enchanting
+								? "Наложение чар"
+								:
+							inscription
+								? "Начертание"
+								:
+							tailoring
+								? "Портняжное дело"
+								:
+							skinning
+								? "Снятие шкур"
+								:
+							herbalism
+								? "Травничество"
+								:
+							jewelcrafting
+								? "Ювелирное дело"
+								:
+							archaeology
+								? "Археология"
+								:
+							riding
+								? "Верховая езда"
+								:
+							cooking
+								? "Кулинария"
+								:
+							firstAid
+								? "Первая помощь"
+								:
+							fishing
+								? "Рыбная ловля"
+								:
+							junkyardTinkering
+								? "Кустарная механика"
+								:
 							honour
 								? "Очки чести"
 								:
@@ -243,6 +297,9 @@ const Announcement = ({ home, warrior, druid, priest, mage, monk, hunter, demonH
 								:
 							twoHandedWeapons
 								? "Двуручное оружие, воплощение неудержимой мощи и сокрушительной силы. Идеальный выбор тех, кто верит, что лучшая защита это яростное нападение. Когда один удар решает исход битвы, а враги разлетаются в клочья от одного взмаха. Неважно, что перед тобой, полчища Плети или могучий инфернал Пылающего Легиона, двуручник сметёт всё на своём пути!"
+								:
+							rangeWeapons
+								? "Оружие дальнего боя — искусство победы на дистанции.Идеальный выбор для тех, кто предпочитает обдуманную тактику грубой силе. Когда один точный выстрел решает исход битвы, а враги падают, так и не успев приблизиться. Неважно, что перед тобой: орда Пылающего Легиона или полчища Плети — расстояние и точность становятся твоим главным союзником. Оружие дальнего боя доказывает: победа достаётся не самым сильным, а самым мудрым и метким!"
 								:
 							waterMounts
 								? "Водные маунты, обитатели морей и океанов, могучие владыки глубин. Они обеспечат вам скорость морской бури и откроют тайны подводного мира. Покорите глубины Азерота!"
