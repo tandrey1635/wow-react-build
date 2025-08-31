@@ -443,7 +443,7 @@ const Card = ({home, raidsArmourWarrior}) => {
 											<Link className="card-link" to="mounts/water">
 												<h3 className="card-title card-title-mounts card-title-mounts-water">Водные</h3>
 											</Link>
-											<p className="card-text card-text-mounts card-text-mounts-water">Водные маунты, обитатели морей и океанов. Дадут фору любому пловцу</p>
+											<p className="card-text card-text-mounts card-text-mounts-water">Водные маунты, обитатели морей и океанов, могучие владыки глубин. Они обеспечат вам скорость морской бури и откроют тайны подводного мира. Покорите глубины Азерота!</p>
 										</div>
 										<div className="card-footer d-flex justify-content-between align-items-center">
 											<p className="card-price card-price-mounts card-price-mounts-water">от 100<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
@@ -459,7 +459,7 @@ const Card = ({home, raidsArmourWarrior}) => {
 											<Link className="card-link" to="mounts/earth">
 												<h3 className="card-title card-title-mounts card-title-mounts-earth">Наземные</h3>
 											</Link>
-											<p className="card-text card-text-mounts card-text-mounts-earth">Наземные маунты, живущие на земле, обитатели пещер. Очень быстро передвигаются</p>
+											<p className="card-text card-text-mounts card-text-mounts-earth">Наземные маунты, обитатели пещер, могучие бегуны. Они обеспечат вам молниеносную скорость и превосходство в любом путешествии. Покорите бескрайние просторы Азерота!</p>
 										</div>
 										<div className="card-footer d-flex justify-content-between align-items-center">
 											<p className="card-price card-price-mounts card-price-mounts-earth">от 100<img className="dollar" src={dollarImg}  alt={dollarAlt} /></p>
@@ -475,7 +475,7 @@ const Card = ({home, raidsArmourWarrior}) => {
 											<Link className="card-link" to="mounts/fly">
 												<h3 className="card-title card-title-mounts card-title-mounts-fly">Летающие</h3>
 											</Link>
-											<p className="card-text card-text-mounts card-text-mounts-fly">Летающие маунты, небо их стихия. Летают со скоростью ветра</p>
+											<p className="card-text card-text-mounts card-text-mounts-fly">Летающие маунты, властелины небес, повелители бескрайних воздушных просторов. Они обеспечат вам скорость ветра и абсолютное превосходство в воздухе. Покорите небеса Азерота!</p>
 										</div>
 										<div className="card-footer d-flex justify-content-between align-items-center">
 											<p className="card-price card-price-mounts card-price-mounts-fly">от 100<img className="dollar" src={dollarImg}  alt={dollarAlt} /></p>
