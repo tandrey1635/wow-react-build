@@ -808,10 +808,10 @@ footer {
 .card-lvl-up:hover {
   box-shadow: 0 0 2px 5px #ffb300;
 }
-.card-achievments {
+.card-achievements {
   background: linear-gradient(325deg, #607d8b, transparent 30%, transparent 35%, #607d8b, transparent);
 }
-.card-achievments:hover {
+.card-achievements:hover {
   box-shadow: 0 0 2px 5px #607d8b;
 }
 .card-buy {
@@ -850,11 +850,11 @@ footer {
 .card-img-tiers {
   border-radius: 0.8rem;
 }
-.card-img-mythic, .card-img-raids, .card-img-lvl-up, .card-img-achievments {
+.card-img-mythic, .card-img-raids, .card-img-lvl-up, .card-img-achievements {
   border-radius: 50%;
   transition: 0.5s all;
 }
-.card-img-mythic:hover, .card-img-raids:hover, .card-img-lvl-up:hover, .card-img-achievments:hover {
+.card-img-mythic:hover, .card-img-raids:hover, .card-img-lvl-up:hover, .card-img-achievements:hover {
   transform: scale(1);
   border-radius: 0;
 }
@@ -985,6 +985,9 @@ footer {
 }
 .card-title-lvl-up {
   color: #8400ff;
+}
+.card-title-achievements {
+  color: #607d8b;
 }
 .card-title-buy {
   color: #564fff;
@@ -1135,6 +1138,9 @@ footer {
 .card-text-raids-dragonflight_color {
   color: #31dfcf;
 }
+.card-text-achievements {
+  color: #607d8b;
+}
 .card-text-buy:hover {
   transform: scale(1);
 }
@@ -1223,6 +1229,9 @@ footer {
 }
 .card-price-pvp {
   color: #ff0033;
+}
+.card-price-achievements {
+  color: #607d8b;
 }
 
 .card-btn {

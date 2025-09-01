@@ -320,55 +320,55 @@ const Nav = ({home, warrior, druid, priest, mage, monk, hunter, demonHunter, pal
 						</li>
 
 						{/* Табы Достижения */}
-						<li className="nav-item nav-item-achievments" role="presentation">
-							<a className="nav-link nav-link-tabs nav-link-achievments" id="pills-achievments-tab" data-toggle="pill" href="#pills-achievments" role="tab" aria-controls="pills-achievments" aria-selected="false">Достижения</a>
-							<ul className="nav nav-pills services__nav nav-achievments">
+						<li className="nav-item nav-item-achievements" role="presentation">
+							<a className="nav-link nav-link-tabs nav-link-achievements" id="pills-achievements-tab" data-toggle="pill" href="#pills-achievements" role="tab" aria-controls="pills-achievements" aria-selected="false">Достижения</a>
+							<ul className="nav nav-pills services__nav nav-achievements">
 								<li className="nav-item">
-									<a className="nav-link services__link nav-link-achievments" href="html/achievments/quests.html">Задания</a>
+									<a className="nav-link services__link nav-link-achievements" href="html/achievements/quests.html">Задания</a>
 								</li>
 
 								<li className="nav-item">
-									<a className="nav-link services__link nav-link-achievments" href="html/achievments/equipment-max-lvl.html">Экипировка 1000 уровня</a>
+									<a className="nav-link services__link nav-link-achievements" href="html/achievements/equipment-max-lvl.html">Экипировка 1000 уровня</a>
 								</li>
 
 								<li className="nav-item">
-									<a className="nav-link services__link nav-link-achievments" href="html/achievments/max-mounts.html">1000 Маунтов</a>
+									<a className="nav-link services__link nav-link-achievements" href="html/achievements/max-mounts.html">1000 Маунтов</a>
 								</li>
 
 								<li className="nav-item">
-									<a className="nav-link services__link nav-link-achievments" href="html/achievments/raids-explorer.html">Исследователь Рейдов</a>
+									<a className="nav-link services__link nav-link-achievements" href="html/achievements/raids-explorer.html">Исследователь Рейдов</a>
 								</li>
 
 								<li className="nav-item">
-									<a className="nav-link services__link nav-link-achievments" href="html/achievments/great-feats.html">Посланник титанов</a>
+									<a className="nav-link services__link nav-link-achievements" href="html/achievements/great-feats.html">Посланник титанов</a>
 								</li>
 
 								<li className="nav-item">
-									<a className="nav-link services__link nav-link-achievments" href="html/achievments/great-feats.html">Великие Подвиги</a>
+									<a className="nav-link services__link nav-link-achievements" href="html/achievements/great-feats.html">Великие Подвиги</a>
 								</li>
 
 								<li className="nav-item">
-									<a className="nav-link services__link nav-link-achievments" href="html/achievments/great-feats.html">Warcraft Reforged</a>
+									<a className="nav-link services__link nav-link-achievements" href="html/achievements/great-feats.html">Warcraft Reforged</a>
 								</li>
 
 								<li className="nav-item">
-									<a className="nav-link services__link nav-link-achievments" href="html/achievments/great-feats.html">Starcraft II</a>
+									<a className="nav-link services__link nav-link-achievements" href="html/achievements/great-feats.html">Starcraft II</a>
 								</li>
 
 								<li className="nav-item">
-									<a className="nav-link services__link nav-link-achievments" href="html/achievments/great-feats.html">Diablo 3</a>
+									<a className="nav-link services__link nav-link-achievements" href="html/achievements/great-feats.html">Diablo 3</a>
 								</li>
 
 								<li className="nav-item">
-									<a className="nav-link services__link nav-link-achievments" href="html/achievments/great-feats.html">Heroes of the storm</a>
+									<a className="nav-link services__link nav-link-achievements" href="html/achievements/great-feats.html">Heroes of the storm</a>
 								</li>
 
 								<li className="nav-item">
-									<a className="nav-link services__link nav-link-achievments" href="html/achievments/great-feats.html">Hearthstone</a>
+									<a className="nav-link services__link nav-link-achievements" href="html/achievements/great-feats.html">Hearthstone</a>
 								</li>
 
 								<li className="nav-item">
-									<a className="nav-link services__link nav-link-achievments" href="html/achievments/great-feats.html">Overwatch</a>
+									<a className="nav-link services__link nav-link-achievements" href="html/achievements/great-feats.html">Overwatch</a>
 								</li>
 							</ul>
 						</li>

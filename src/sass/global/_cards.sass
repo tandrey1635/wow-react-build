@@ -144,10 +144,10 @@
 		background: $lvlUpBg
 		&:hover
 			box-shadow: 0 0 2px 5px $lvlUpCardHoverShadow
-	&-achievments
-		background: $achievmentsBg
+	&-achievements
+		background: $achievementsBg
 		&:hover
-			box-shadow: 0 0 2px 5px $achievmentsCardHoverShadow
+			box-shadow: 0 0 2px 5px $achievementsCardHoverShadow
 	&-buy
 		width: 100%
 		&:hover
@@ -169,7 +169,7 @@
 		transform: scale(1.05)
 	&-tiers
 		border-radius: 0.8rem
-	&-mythic, &-raids, &-lvl-up, &-achievments
+	&-mythic, &-raids, &-lvl-up, &-achievements
 		border-radius: 50%
 		transition: 0.5s all
 		&:hover
@@ -264,6 +264,8 @@
 			color: $dragonflightRaidsCardTitle
 	&-lvl-up
 		color: $lvlUpCardTitle
+	&-achievements
+		color: $achievementsColor
 	&-buy
 		color: $mainColor
 		min-height: 0
@@ -368,6 +370,8 @@
 			color: $dragonflightRaidsCardText
 			&_color
 				color: $dragonflightRaidsCardTextSpan
+	&-achievements
+		color: $achievementsColor
 	&-buy
 		&:hover
 			transform: scale(1)
@@ -430,6 +434,8 @@
 		color: $goldAllianceColor
 	&-pvp
 		color: $pvpColor
+	&-achievements
+		color: $achievementsColor
 .card-btn
 	padding: 8px
 	border-radius: 5px

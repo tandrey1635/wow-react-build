@@ -62,11 +62,28 @@ import Fishing  from "./pages/professions/Fishing.tsx";
 import JunkyardTinkering  from "./pages/professions/JunkyardTinkering.tsx";
 
 
-
-
 import Honour  from "./pages/pvp/Honour.tsx";
 import Arena  from "./pages/pvp/Arena.tsx";
 import Rbg  from "./pages/pvp/Rbg.tsx";
+
+
+
+import Quests from "./pages/achievements/Quests.tsx";
+import Equipments from "./pages/achievements/Equipments.tsx";
+import Mounts from "./pages/achievements/Quests.tsx";
+import RaidsExplorer from "./pages/achievements/RaidsExplorer.tsx";
+import Legacy  from "./pages/achievements/Legacy.tsx";
+import GreatFeats  from "./pages/achievements/GreatFeats.tsx";
+import WarcraftReforged from "./pages/achievements/WarcraftReforged.tsx";
+import Wow from "./pages/achievements/Wow.tsx";
+import Diablo  from "./pages/achievements/Diablo.tsx";
+import Hearthstone  from "./pages/achievements/Hearthstone.tsx";
+import HeroesStorm  from "./pages/achievements/HeroesStorm.tsx";
+import Starcraft  from "./pages/achievements/Starcraft.tsx";
+import Overwatch  from "./pages/achievements/Overwatch.tsx";
+import WowCollectionEditions  from "./pages/achievements/WowCollectionEditions.tsx";
+import DiabloCollectionEditions  from "./pages/achievements/DiabloCollectionEditions.tsx";
+
 
 
 
@@ -138,6 +155,27 @@ createRoot(document.getElementById("root")!).render(
 				<Route path="pvp/honour" element={<Honour />} />
 				<Route path="pvp/arena" element={<Arena />} />
 				<Route path="pvp/rbg" element={<Rbg />} />
+
+
+
+
+
+
+				<Route path="achievements/quests" element={<Quests />} />
+				<Route path="achievements/equipments" element={<Equipments />} />
+				<Route path="achievements/mounts" element={<Mounts />} />
+				<Route path="achievements/raids-explorer" element={<RaidsExplorer />} />
+				<Route path="achievements/legacy" element={<Legacy />} />
+				<Route path="achievements/great-feats" element={<GreatFeats />} />
+				<Route path="achievements/warcraft-reforged" element={<WarcraftReforged />} />
+				<Route path="achievements/wow" element={<Wow />} />
+				<Route path="achievements/diablo" element={<Diablo />} />
+				<Route path="achievements/hearthstone" element={<Hearthstone />} />
+				<Route path="achievements/heroes-storm" element={<HeroesStorm />} />
+				<Route path="achievements/starcraft" element={<Overwatch />} />
+				<Route path="achievements/overwatch" element={<Overwatch />} />
+				<Route path="achievements/wow-collection-editions" element={<WowCollectionEditions />} />
+				<Route path="achievements/diablo-collection-editions" element={<DiabloCollectionEditions />} />
 			</Routes>
 		</BrowserRouter>
 	</StrictMode>
