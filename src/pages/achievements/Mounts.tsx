@@ -17,7 +17,7 @@ const Mounts = () => {
 				<Main>
 					<h1 style={{fontSize: 120}} className="text-center text-danger">В разработке</h1>
 					<Announcement achievements mounts />
-					<Promo />
+					<Promo mounts />
 				</Main>
 				<Footer />
 			</Wrapper>

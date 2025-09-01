@@ -1,4 +1,4 @@
-const Promo = ({ warrior, druid, priest, mage, monk, hunter, demonHunter, paladin, awakener, rogue, deathKnight, warlock, shaman, oneHandedWeapons, twoHandedWeapons, rangeWeapons, legendaryWeapons, artefactWeapons, decorativeWeapons, shields, cloaks, fishingRods, waterMounts, earthMounts, flyMounts, hordeGold, allianceGold, alchemy, mining, engineering, leatherworking, blacksmithing, enchanting,  inscription, tailoring, skinning, herbalism, jewelcrafting, archaeology, riding, cooking, firstAid, fishing, junkyardTinkering, honour, arena, rbg }) => {
+const Promo = ({ warrior, druid, priest, mage, monk, hunter, demonHunter, paladin, awakener, rogue, deathKnight, warlock, shaman, oneHandedWeapons, twoHandedWeapons, rangeWeapons, legendaryWeapons, artefactWeapons, decorativeWeapons, shields, cloaks, fishingRods, waterMounts, earthMounts, flyMounts, hordeGold, allianceGold, alchemy, mining, engineering, leatherworking, blacksmithing, enchanting,  inscription, tailoring, skinning, herbalism, jewelcrafting, archaeology, riding, cooking, firstAid, fishing, junkyardTinkering, honour, arena, rbg, quests, equipments, mounts, raidsExplorer, legacy, greatFeats, warcraftReforged, wow, diablo, hearthstone, heroesStorm, starcraft, overwatch, wowCollectionEditions, diabloCollectionEditions }) => {
 	return (
 		<section className="promo">
 			<div className="container d-flex justify-content-between align-items-center flex-column flex-lg-row">
@@ -171,6 +171,51 @@ const Promo = ({ warrior, druid, priest, mage, monk, hunter, demonHunter, paladi
 							:
 						rbg
 							? "promo__raitings promo__raitings_rbg"
+							:
+						quests
+							? "promo__raitings promo__raitings_quests"
+							:
+						equipments
+							? "promo__raitings promo__raitings_equipments"
+							:
+						mounts
+							? "promo__raitings promo__raitings_mounts"
+							:
+						raidsExplorer
+							? "promo__raitings promo__raitings_raids-explorer"
+							:
+						legacy
+							? "promo__raitings promo__raitings_legacy"
+							:
+						greatFeats
+							? "promo__raitings promo__raitings_great-feats"
+							:
+						warcraftReforged
+							? "promo__raitings promo__raitings_warcraft-reforged"
+							:
+						wow
+							? "promo__raitings promo__raitings_wow"
+							:
+						diablo
+							? "promo__raitings promo__raitings_diablo"
+							:
+						hearthstone
+							? "promo__raitings promo__raitings_hearthstone"
+							:
+						heroesStorm
+							? "promo__raitings promo__raitings_heroes-storm"
+							:
+						starcraft
+							? "promo__raitings promo__raitings_starcraft"
+							:
+						overwatch
+							? "promo__raitings promo__raitings_overwatch"
+							:
+						wowCollectionEditions
+							? "promo__raitings promo__raitings_wow-collection-editions"
+							:
+						diabloCollectionEditions
+							? "promo__raitings promo__raitings_diablo-collection-editions"
 							: "promo__raitings"
 						} mt-md-5`
 					}

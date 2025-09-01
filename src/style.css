@@ -469,6 +469,51 @@ footer {
 .promo__raitings_rbg {
   background: url("/src/assets/img/pvp/bg/rbg.png") no-repeat center/contain;
 }
+.promo__raitings_quests {
+  background: url("/src/assets/img/achievements/bg/quests.jpg") no-repeat center/contain;
+}
+.promo__raitings_equipments {
+  background: url("/src/assets/img/achievements/bg/equipments.jpg") no-repeat center/contain;
+}
+.promo__raitings_mounts {
+  background: url("/src/assets/img/achievements/bg/mounts.jpg") no-repeat center/contain;
+}
+.promo__raitings_raids-explorer {
+  background: url("/src/assets/img/achievements/bg/raids-explorer.jpg") no-repeat center/contain;
+}
+.promo__raitings_legacy {
+  background: url("/src/assets/img/achievements/bg/legacy.jpg") no-repeat center/contain;
+}
+.promo__raitings_great-feats {
+  background: url("/src/assets/img/achievements/bg/great-feats.jpg") no-repeat center/contain;
+}
+.promo__raitings_warcraft-reforged {
+  background: url("/src/assets/img/achievements/bg/warcraft-reforged.jpg") no-repeat center/contain;
+}
+.promo__raitings_wow {
+  background: url("/src/assets/img/achievements/bg/wow.jpg") no-repeat center/contain;
+}
+.promo__raitings_diablo {
+  background: url("/src/assets/img/achievements/bg/diablo.jpg") no-repeat center/contain;
+}
+.promo__raitings_hearthstone {
+  background: url("/src/assets/img/achievements/bg/hearthstone.jpg") no-repeat center/contain;
+}
+.promo__raitings_heroes-storm {
+  background: url("/src/assets/img/achievements/bg/heroes-of-the-storm.jpg") no-repeat center/contain;
+}
+.promo__raitings_starcraft {
+  background: url("/src/assets/img/achievements/bg/starcraft.jpg") no-repeat center/contain;
+}
+.promo__raitings_overwatch {
+  background: url("/src/assets/img/achievements/bg/overwatch.jpg") no-repeat center/contain;
+}
+.promo__raitings_wow-collection-editions {
+  background: url("/src/assets/img/achievements/bg/wow-collection-editions.jpg") no-repeat center/contain;
+}
+.promo__raitings_diablo-collection-editions {
+  background: url("/src/assets/img/achievements/bg/diablo-collection-editions.jpg") no-repeat center/contain;
+}
 .promo__warnings {
   max-width: 300px;
   padding: 10px;

@@ -17,7 +17,7 @@ const GreatFeats = () => {
 				<Main>
 					<h1 style={{fontSize: 120}} className="text-center text-danger">В разработке</h1>
 					<Announcement achievements greatFeats />
-					<Promo />
+					<Promo greatFeats />
 				</Main>
 				<Footer />
 			</Wrapper>
