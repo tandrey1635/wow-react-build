@@ -234,6 +234,9 @@ footer {
 .announcement__header_honour, .announcement__header_arena, .announcement__header_rbg, .announcement__subheader_honour, .announcement__subheader_arena, .announcement__subheader_rbg {
   color: #ff0033;
 }
+.announcement__header_achievements, .announcement__subheader_achievements {
+  color: #607d8b;
+}
 .announcement__subheader {
   margin-top: 20px;
   font-size: 36px;

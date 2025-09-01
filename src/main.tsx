@@ -70,7 +70,7 @@ import Rbg  from "./pages/pvp/Rbg.tsx";
 
 import Quests from "./pages/achievements/Quests.tsx";
 import Equipments from "./pages/achievements/Equipments.tsx";
-import Mounts from "./pages/achievements/Quests.tsx";
+import Mounts from "./pages/achievements/Mounts.tsx";
 import RaidsExplorer from "./pages/achievements/RaidsExplorer.tsx";
 import Legacy  from "./pages/achievements/Legacy.tsx";
 import GreatFeats  from "./pages/achievements/GreatFeats.tsx";
@@ -172,7 +172,7 @@ createRoot(document.getElementById("root")!).render(
 				<Route path="achievements/diablo" element={<Diablo />} />
 				<Route path="achievements/hearthstone" element={<Hearthstone />} />
 				<Route path="achievements/heroes-storm" element={<HeroesStorm />} />
-				<Route path="achievements/starcraft" element={<Overwatch />} />
+				<Route path="achievements/starcraft" element={<Starcraft />} />
 				<Route path="achievements/overwatch" element={<Overwatch />} />
 				<Route path="achievements/wow-collection-editions" element={<WowCollectionEditions />} />
 				<Route path="achievements/diablo-collection-editions" element={<DiabloCollectionEditions />} />

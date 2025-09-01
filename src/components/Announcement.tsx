@@ -1,4 +1,4 @@
-const Announcement = ({ home, warrior, druid, priest, mage, monk, hunter, demonHunter, paladin, awakener, rogue, deathKnight, warlock, shaman, oneHandedWeapons, twoHandedWeapons, rangeWeapons, legendaryWeapons, artefactWeapons, decorativeWeapons, shields, cloaks, fishingRods, waterMounts, earthMounts, flyMounts, hordeGold, allianceGold, alchemy, mining, engineering, leatherworking, blacksmithing, enchanting,  inscription, tailoring, skinning, herbalism, jewelcrafting, archaeology, riding, cooking, firstAid, fishing, junkyardTinkering, honour, arena, rbg }) => {
+const Announcement = ({ home, warrior, druid, priest, mage, monk, hunter, demonHunter, paladin, awakener, rogue, deathKnight, warlock, shaman, oneHandedWeapons, twoHandedWeapons, rangeWeapons, legendaryWeapons, artefactWeapons, decorativeWeapons, shields, cloaks, fishingRods, waterMounts, earthMounts, flyMounts, hordeGold, allianceGold, alchemy, mining, engineering, leatherworking, blacksmithing, enchanting,  inscription, tailoring, skinning, herbalism, jewelcrafting, archaeology, riding, cooking, firstAid, fishing, junkyardTinkering, honour, arena, rbg, achievements, quests, equipments, mounts, raidsExplorer, legacy, greatFeats, warcraftReforged, wow, diablo, hearthstone, heroesStorm, starcraft, overwatch, wowCollectionEditions, diabloCollectionEditions  }) => {
 	return (
 		<section className="announcement">
 			<div className="container">
@@ -97,6 +97,9 @@ const Announcement = ({ home, warrior, druid, priest, mage, monk, hunter, demonH
 								:
 							rbg
 								? "announcement__header announcement__header_rbg"
+								:
+							achievements
+								? "announcement__header announcement__header_achievements"
 								: "announcement__header"
 							} text-center`
 						}
@@ -242,6 +245,51 @@ const Announcement = ({ home, warrior, druid, priest, mage, monk, hunter, demonH
 								:
 							rbg
 								? "Рейтинговые поля боя"
+								:
+							quests
+								? "Задания"
+								:
+							equipments
+								? "Экипировка 1000 уровня"
+								:
+							mounts
+								? "1000 маунтов"
+								:
+							raidsExplorer
+								? "Исследователь рейдов"
+								:
+							legacy
+								? "Наследие"
+								:
+							greatFeats
+								? "Великие подвиги"
+								:
+							warcraftReforged
+								? "Годовщина Warcraft 3 Reforged"
+								:
+							wow
+								? "Годовщина World of Warcraft"
+								:
+							diablo
+								? "Годовщина Diablo"
+								:
+							hearthstone
+								? "Годовщина Hearthstone"
+								:
+							heroesStorm
+								? "Годовщина Heroes of the Storm"
+								:
+							starcraft
+								? "Годовщина StarCraft"
+								:
+							overwatch
+								? "Годовщина Overwatch"
+								:
+							wowCollectionEditions
+								? "Коллекционные издания World of Warcraft"
+								:
+							diabloCollectionEditions
+								? "Коллекционные издания Diablo"
 								: "World of Warcraft"
 						}
 					</h1>
