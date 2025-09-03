@@ -1,4 +1,4 @@
-const Announcement = ({ home, warrior, druid, priest, mage, monk, hunter, demonHunter, paladin, awakener, rogue, deathKnight, warlock, shaman, oneHandedWeapons, twoHandedWeapons, rangeWeapons, legendaryWeapons, artefactWeapons, decorativeWeapons, shields, cloaks, fishingRods, waterMounts, earthMounts, flyMounts, hordeGold, allianceGold, alchemy, mining, engineering, leatherworking, blacksmithing, enchanting,  inscription, tailoring, skinning, herbalism, jewelcrafting, archaeology, riding, cooking, firstAid, fishing, junkyardTinkering, honour, arena, rbg, achievements, quests, equipments, mounts, raidsExplorer, legacy, greatFeats, warcraftReforged, wow, diablo, hearthstone, heroesStorm, starcraft, overwatch, wowCollectionEditions, diabloCollectionEditions  }) => {
+const Announcement = ({ home, warrior, druid, priest, mage, monk, hunter, demonHunter, paladin, awakener, rogue, deathKnight, warlock, shaman, oneHandedWeapons, twoHandedWeapons, rangeWeapons, legendaryWeapons, artefactWeapons, decorativeWeapons, shields, cloaks, fishingRods, waterMounts, earthMounts, flyMounts, hordeGold, allianceGold, alchemy, mining, engineering, leatherworking, blacksmithing, enchanting,  inscription, tailoring, skinning, herbalism, jewelcrafting, archaeology, riding, cooking, firstAid, fishing, junkyardTinkering, honour, arena, rbg, сlassic, burningCrusade, wrathOfTheLichKing, cataclysm, mistsOfPandaria, warlordsOfDraenor, legion, battleForAzeroth, shadowlands, dragonflight, warWithin, midnight, lastTitan, achievements, quests, equipments, mounts, raidsExplorer, legacy, greatFeats, warcraftReforged, wow, diablo, hearthstone, heroesStorm, starcraft, overwatch, wowCollectionEditions, diabloCollectionEditions  }) => {
 	return (
 		<section className="announcement">
 			<div className="container">
@@ -246,6 +246,45 @@ const Announcement = ({ home, warrior, druid, priest, mage, monk, hunter, demonH
 							rbg
 								? "Рейтинговые поля боя"
 								:
+							сlassic
+								? "Рейды Classic"
+								:
+							burningCrusade
+								? "Рейды The Burning Crusade"
+								:
+							wrathOfTheLichKing
+								? "Рейды Wrath of the Lich King"
+								:
+							cataclysm
+								? "Рейды Cataclysm"
+								:
+							mistsOfPandaria
+								? "Рейды Mists of Pandaria"
+								:
+							warlordsOfDraenor
+								? "Рейды Warlords of Draenor"
+								:
+							legion
+								? "Рейды Legion"
+								:
+							battleForAzeroth
+								? "Рейды Battle for Azeroth"
+								:
+							shadowlands
+								? "Рейды Shadowlands"
+								:
+							dragonflight
+								? "Рейды Dragonflight"
+								:
+							warWithin
+								? "Рейды The War Within"
+								:
+							midnight
+								? "Рейды Midnight"
+								:
+							lastTitan
+								? "Рейды The Last Titan"
+								:
 							quests
 								? "Задания"
 								:
@@ -293,7 +332,9 @@ const Announcement = ({ home, warrior, druid, priest, mage, monk, hunter, demonH
 								: "World of Warcraft"
 						}
 					</h1>
-					<h2 className={`${
+					<h2 className="announcement__header text-center">WorldSoul Saga</h2>
+					<h3 className="announcement__subheader announcement__subheader_main text-center">Великое приключение длиной в 20 лет</h3>
+					<h3 className={`${
 						home
 							? "announcement__subheader announcement__subheader_main"
 							: "announcement__subheader"
@@ -359,7 +400,7 @@ const Announcement = ({ home, warrior, druid, priest, mage, monk, hunter, demonH
 								? "Летающие маунты, властелины небес, повелители бескрайних воздушных просторов. Они обеспечат вам скорость ветра и абсолютное превосходство в воздухе. Покорите небеса Азерота!"
 								: "Станьте легендой Азерота!"
 						}
-					</h2>
+					</h3>
 					<p className="announcement__text text-center">
 						Сэкономьте свое время, приобретая предметы, валюту и
 						достижения, чтобы играть на другом уровне

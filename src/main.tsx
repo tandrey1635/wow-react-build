@@ -67,6 +67,21 @@ import Arena  from "./pages/pvp/Arena.tsx";
 import Rbg  from "./pages/pvp/Rbg.tsx";
 
 
+import Classic  from "./pages/raids/Classic.tsx";
+import BurningCrusade  from "./pages/raids/BurningCrusade.tsx";
+import WrathOfTheLichKing  from "./pages/raids/WrathOfTheLichKing.tsx";
+import Cataclysm  from "./pages/raids/Cataclysm.tsx";
+import MistsOfPandaria  from "./pages/raids/MistsOfPandaria.tsx";
+import WarlordsOfDraenor  from "./pages/raids/WarlordsOfDraenor.tsx";
+import Legion  from "./pages/raids/Legion.tsx";
+import BattleForAzeroth  from "./pages/raids/BattleForAzeroth.tsx";
+import Shadowlands  from "./pages/raids/Shadowlands.tsx";
+import Dragonflight  from "./pages/raids/Dragonflight.tsx";
+import WarWithin  from "./pages/raids/WarWithin.tsx";
+import Midnight  from "./pages/raids/Midnight.tsx";
+import LastTitan  from "./pages/raids/LastTitan.tsx";
+
+
 
 import Quests from "./pages/achievements/Quests.tsx";
 import Equipments from "./pages/achievements/Equipments.tsx";
@@ -157,8 +172,19 @@ createRoot(document.getElementById("root")!).render(
 				<Route path="pvp/rbg" element={<Rbg />} />
 
 
-
-
+				<Route path="raids/classic" element={<Classic />} />
+				<Route path="raids/burning-crusade" element={<BurningCrusade />} />
+				<Route path="raids/wrath-of-the-lich-king" element={<WrathOfTheLichKing />} />
+				<Route path="raids/cataclysm" element={<Cataclysm />} />
+				<Route path="raids/mists-of-pandaria" element={<MistsOfPandaria />} />
+				<Route path="raids/warlords-of-draenor" element={<WarlordsOfDraenor />} />
+				<Route path="raids/legion" element={<Legion />} />
+				<Route path="raids/battle-for-azeroth" element={<BattleForAzeroth />} />
+				<Route path="raids/shadowlands" element={<Shadowlands />} />
+				<Route path="raids/dragonflight" element={<Dragonflight />} />
+				<Route path="raids/war-within" element={<WarWithin />} />
+				<Route path="raids/midnight" element={<Midnight />} />
+				<Route path="raids/last-titan" element={<LastTitan />} />
 
 
 				<Route path="achievements/quests" element={<Quests />} />

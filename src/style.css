@@ -850,6 +850,24 @@ footer {
 .card-raids-dragonflight:hover {
   box-shadow: 0 0 2px 5px #1fbbad;
 }
+.card-raids-war-within {
+  background: linear-gradient(325deg, #d35400, transparent 30%, transparent 35%, #d35400, transparent);
+}
+.card-raids-war-within:hover {
+  box-shadow: 0 0 2px 5px #d35400;
+}
+.card-raids-midnight {
+  background: linear-gradient(325deg, #3126c1, transparent 30%, transparent 35%, #3126c1, transparent);
+}
+.card-raids-midnight:hover {
+  box-shadow: 0 0 2px 5px #3126c1;
+}
+.card-raids-last-titan {
+  background: linear-gradient(325deg, #dfae56, transparent 30%, transparent 35%, #dfae56, transparent);
+}
+.card-raids-last-titan:hover {
+  box-shadow: 0 0 2px 5px #dfae56;
+}
 .card-lvl-up {
   background: linear-gradient(325deg, #ffb300, transparent 30%, transparent 35%, #ffb300, transparent);
 }
@@ -1031,6 +1049,15 @@ footer {
 .card-title-raids-dragonflight {
   color: #31dfcf;
 }
+.card-title-raids-war-within {
+  color: #fa6604;
+}
+.card-title-raids-midnight {
+  color: #1205c6;
+}
+.card-title-raids-last-titan {
+  color: #fcd075;
+}
 .card-title-lvl-up {
   color: #8400ff;
 }
@@ -1186,6 +1213,24 @@ footer {
 .card-text-raids-dragonflight_color {
   color: #31dfcf;
 }
+.card-text-raids-war-within {
+  color: #d35400;
+}
+.card-text-raids-war-within_color {
+  color: #fa6604;
+}
+.card-text-raids-midnight {
+  color: #3126c1;
+}
+.card-text-raids-midnight_color {
+  color: #1205c6;
+}
+.card-text-raids-last-titan {
+  color: #dfae56;
+}
+.card-text-raids-last-titan_color {
+  color: #fcd075;
+}
 .card-text-achievements {
   color: #607d8b;
 }
@@ -1277,6 +1322,45 @@ footer {
 }
 .card-price-pvp {
   color: #ff0033;
+}
+.card-price-raids-classic {
+  color: #ffc107;
+}
+.card-price-raids-burning-crusade {
+  color: #7bed09;
+}
+.card-price-raids-wrath-of-the-lich-king {
+  color: #00bfff;
+}
+.card-price-raids-cataclysm {
+  color: #ff4d00;
+}
+.card-price-raids-mists-of-pandaria {
+  color: #00ff7f;
+}
+.card-price-raids-warlord-of-draenor {
+  color: #ffc107;
+}
+.card-price-raids-legion {
+  color: #7bed09;
+}
+.card-price-raids-battle-for-azeroth {
+  color: #8b00ff;
+}
+.card-price-raids-shadowlands {
+  color: #92c5d1;
+}
+.card-price-raids-dragonflight {
+  color: #31dfcf;
+}
+.card-price-raids-war-within {
+  color: #fa6604;
+}
+.card-price-raids-midnight {
+  color: #1205c6;
+}
+.card-price-raids-last-titan {
+  color: #fcd075;
 }
 .card-price-achievements {
   color: #607d8b;

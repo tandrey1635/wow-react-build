@@ -70,6 +70,24 @@ const Card = ({home, raidsArmourWarrior}) => {
 	const RbgCardImg = `${basePathImg}/pvp/bg/rbg.png`
 
 
+	/* Фото рейды гл стр */
+	const ClassicCardImg = `${basePathImg}/raids/bg/temple-of-ahnqiraj.jpg`
+	const BurningCrusadeCardImg = `${basePathImg}/raids/bg/black-temple.jpg`
+	const WrathOfTheLichKingCardImg = `${basePathImg}/raids/bg/icecrown-citadel.jpg`
+	const CataclysmCardImg = `${basePathImg}/raids/bg/firelands.jpg`
+	const MistsOfPandariaCardImg = `${basePathImg}/raids/bg/throne-of-thunder.jpg`
+	const WarlordOfDraenorCardImg = `${basePathImg}/raids/bg/blackrock-foundry.jpg`
+	const LegionCardImg = `${basePathImg}/raids/bg/antorus-the-burning-throne.jpg`
+	const BattleForAzerothCardImg = `${basePathImg}/raids/bg/nyalotha-the-waking-city.jpg`
+	const ShadowlandsCardImg = `${basePathImg}/raids/bg/sanctum-of-domination.jpg`
+	const DragonflightCardImg = `${basePathImg}/raids/bg/amirdrassil-the-dreams-hope.jpg`
+	const WarWithinCardImg = `${basePathImg}/raids/bg/manaforge-omega.jpg`
+	const MidnightCardImg = `${basePathImg}/raids/bg/midnight.jpg`
+	const LastTitanCardImg = `${basePathImg}/raids/bg/last-titan.jpg`
+
+
+
+
 	/* Фото достижения гл стр */
 	const QuestsCardImg = `${basePathImg}/achievements/bg/quests.jpg`
 	const EquipmentsCardImg = `${basePathImg}/achievements/bg/equipments.jpg`
@@ -887,6 +905,224 @@ const Card = ({home, raidsArmourWarrior}) => {
 									</div>
 								</div>
 							</div>
+
+
+
+
+
+							{/* Таб контент рейды */}
+							<div className="tab-pane fade fade show active mt-5" id="pills-raids">
+								<div className="card-box d-flex flex-wrap justify-content-center justify-content-xl-start">
+									<div className="card card-raids card-raids-classic">
+										<Link to="raids/classic">
+											<img src={ClassicCardImg} className="card-img card-img-raids" alt="Classic" />
+										</Link>
+										<div className="card-body">
+											<Link className="card-link" to="raids/classic">
+												<h3 className="card-title card-title-raids card-title-raids-classic">Classic</h3>
+											</Link>
+											<p className="card-text card-text-raids card-text-raids-classic">Закажите гарантированное прохождение любого рейда из дополнения <span className="card-text-raids-classic_color">Classic</span></p>
+										</div>
+										<div className="card-footer d-flex justify-content-between align-items-center">
+											<p className="card-price card-price-raids card-price-raids-classic">от 50<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="raids/classic" className="card-btn card-btn-raids card-btn-raids-classic">Подробнее</Link>
+										</div>
+									</div>
+
+									<div className="card card-raids card-raids-burning-crusade">
+										<Link to="raids/burning-crusade">
+											<img src={BurningCrusadeCardImg} className="card-img card-img-raids" alt="The Burning Crusade" />
+										</Link>
+										<div className="card-body">
+											<Link className="card-link" to="raids/burning-crusade">
+												<h3 className="card-title card-title-raids card-title-raids-burning-crusade">The Burning Crusade</h3>
+											</Link>
+											<p className="card-text card-text-raids card-text-raids-burning-crusade">Закажите гарантированное прохождение любого рейда из дополнения <span className="card-text-raids-burning-crusade_color">The Burning Crusade</span></p>
+										</div>
+										<div className="card-footer d-flex justify-content-between align-items-center">
+											<p className="card-price card-price-raids card-price-raids-burning-crusade">от 100<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="raids/burning-crusade" className="card-btn card-btn-raids card-btn-raids-burning-crusade">Подробнее</Link>
+										</div>
+									</div>
+
+									<div className="card card-raids card-raids-wrath-of-the-lich-king">
+										<Link to="raids/wrath-of-the-lich-king">
+											<img src={WrathOfTheLichKingCardImg} className="card-img card-img-raids" alt="Wrath of the Lich King" />
+										</Link>
+										<div className="card-body">
+											<Link className="card-link" to="raids/wrath-of-the-lich-king">
+												<h3 className="card-title card-title-raids card-title-raids-wrath-of-the-lich-king">Wrath of the Lich King</h3>
+											</Link>
+											<p className="card-text card-text-raids card-text-raids-wrath-of-the-lich-king">Закажите гарантированное прохождение любого рейда из дополнения <span className="card-text-raids-wrath-of-the-lich-king_color">Wrath of the Lich King</span></p>
+										</div>
+										<div className="card-footer d-flex justify-content-between align-items-center">
+											<p className="card-price card-price-raids card-price-raids-wrath-of-the-lich-king">от 150<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="raids/wrath-of-the-lich-king" className="card-btn card-btn-raids card-btn-raids-wrath-of-the-lich-king">Подробнее</Link>
+										</div>
+									</div>
+
+									<div className="card card-raids card-raids-cataclysm">
+										<Link to="raids/cataclysm">
+											<img src={CataclysmCardImg} className="card-img card-img-raids" alt="Cataclysm" />
+										</Link>
+										<div className="card-body">
+											<Link className="card-link" to="raids/cataclysm">
+												<h3 className="card-title card-title-raids card-title-raids-cataclysm">Cataclysm</h3>
+											</Link>
+											<p className="card-text card-text-raids card-text-raids-cataclysm">Закажите гарантированное прохождение любого рейда из дополнения <span className="card-text-raids-cataclysm_color">Cataclysm</span></p>
+										</div>
+										<div className="card-footer d-flex justify-content-between align-items-center">
+											<p className="card-price card-price-raids card-price-raids-cataclysm">от 200<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="raids/cataclysm" className="card-btn card-btn-raids card-btn-raids-cataclysm">Подробнее</Link>
+										</div>
+									</div>
+
+									<div className="card card-raids card-raids-mists-of-pandaria">
+										<Link to="raids/mists-of-pandaria">
+											<img src={MistsOfPandariaCardImg} className="card-img card-img-raids" alt="Mists of Pandaria" />
+										</Link>
+										<div className="card-body">
+											<Link className="card-link" to="raids/mists-of-pandaria">
+												<h3 className="card-title card-title-raids card-title-raids-mists-of-pandaria">Mists of Pandaria</h3>
+											</Link>
+											<p className="card-text card-text-raids card-text-raids-mists-of-pandaria">Закажите гарантированное прохождение любого рейда из дополнения <span className="card-text-raids-mists-of-pandaria_color">Mists of Pandaria</span></p>
+										</div>
+										<div className="card-footer d-flex justify-content-between align-items-center">
+											<p className="card-price card-price-raids card-price-raids-mists-of-pandaria">от 250<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="raids/mists-of-pandaria" className="card-btn card-btn-raids card-btn-raids-mists-of-pandaria">Подробнее</Link>
+										</div>
+									</div>
+
+									<div className="card card-raids card-raids-warlord-of-draenor">
+										<Link to="raids/warlords-of-draenor">
+											<img src={WarlordOfDraenorCardImg} className="card-img card-img-raids" alt="Warlords of Draenor" />
+										</Link>
+										<div className="card-body">
+											<Link className="card-link" to="raids/warlords-of-draenor">
+												<h3 className="card-title card-title-raids card-title-raids-warlord-of-draenor">Warlords of Draenor</h3>
+											</Link>
+											<p className="card-text card-text-raids card-text-raids-warlord-of-draenor">Закажите гарантированное прохождение любого рейда из дополнения <span className="card-text-raids-warlord-of-draenor_color">Warlords of Draenor</span></p>
+										</div>
+										<div className="card-footer d-flex justify-content-between align-items-center">
+											<p className="card-price card-price-raids card-price-raids-warlord-of-draenor">от 300<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="raids/warlords-of-draenor" className="card-btn card-btn-raids card-btn-raids-warlord-of-draenor">Подробнее</Link>
+										</div>
+									</div>
+
+									<div className="card card-raids card-raids-legion">
+										<Link to="raids/legion">
+											<img src={LegionCardImg} className="card-img card-img-raids" alt="Legion" />
+										</Link>
+										<div className="card-body">
+											<Link className="card-link" to="raids/legion">
+												<h3 className="card-title card-title-raids card-title-raids-legion">Legion</h3>
+											</Link>
+											<p className="card-text card-text-raids card-text-raids-legion">Закажите гарантированное прохождение любого рейда из дополнения <span className="card-text-raids-legion_color">Legion</span></p>
+										</div>
+										<div className="card-footer d-flex justify-content-between align-items-center">
+											<p className="card-price card-price-raids card-price-raids-legion">от 350<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="raids/legion" className="card-btn card-btn-raids card-btn-raids-legion">Подробнее</Link>
+										</div>
+									</div>
+
+									<div className="card card-raids card-raids-battle-for-azeroth">
+										<Link to="raids/battle-for-azeroth">
+											<img src={BattleForAzerothCardImg} className="card-img card-img-raids" alt="Battle for Azeroth" />
+										</Link>
+										<div className="card-body">
+											<Link className="card-link" to="raids/battle-for-azeroth">
+												<h3 className="card-title card-title-raids card-title-raids-battle-for-azeroth">Battle for Azeroth</h3>
+											</Link>
+											<p className="card-text card-text-raids card-text-raids-battle-for-azeroth">Закажите гарантированное прохождение любого рейда из дополнения <span className="card-text-raids-battle-for-azeroth_color">Battle for Azeroth</span></p>
+										</div>
+										<div className="card-footer d-flex justify-content-between align-items-center">
+											<p className="card-price card-price-raids card-price-raids-battle-for-azeroth">от 400<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="raids/battle-for-azeroth" className="card-btn card-btn-raids card-btn-raids-battle-for-azeroth">Подробнее</Link>
+										</div>
+									</div>
+
+									<div className="card card-raids card-raids-shadowlands">
+										<Link to="raids/shadowlands">
+											<img src={ShadowlandsCardImg} className="card-img card-img-raids" alt="Shadowlands" />
+										</Link>
+										<div className="card-body">
+											<Link className="card-link" to="raids/shadowlands">
+												<h3 className="card-title card-title-raids card-title-raids-shadowlands">Shadowlands</h3>
+											</Link>
+											<p className="card-text card-text-raids card-text-raids-shadowlands">Закажите гарантированное прохождение любого рейда из дополнения <span className="card-text-raids-shadowlands_color">Shadowlands</span></p>
+										</div>
+										<div className="card-footer d-flex justify-content-between align-items-center">
+											<p className="card-price card-price-raids card-price-raids-shadowlands">от 500<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="raids/shadowlands" className="card-btn card-btn-raids card-btn-raids-shadowlands">Подробнее</Link>
+										</div>
+									</div>
+
+									<div className="card card-raids card-raids-dragonflight">
+										<Link to="raids/dragonflight">
+											<img src={DragonflightCardImg} className="card-img card-img-raids" alt="Dragonflight" />
+										</Link>
+										<div className="card-body">
+											<Link className="card-link" to="raids/dragonflight">
+												<h3 className="card-title card-title-raids card-title-raids-dragonflight">Dragonflight</h3>
+											</Link>
+											<p className="card-text card-text-raids card-text-raids-dragonflight">Закажите гарантированное прохождение любого рейда из дополнения <span className="card-text-raids-dragonflight_color">Dragonflight</span></p>
+										</div>
+										<div className="card-footer d-flex justify-content-between align-items-center">
+											<p className="card-price card-price-raids card-price-raids-dragonflight">от 550<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="raids/dragonflight" className="card-btn card-btn-raids card-btn-raids-dragonflight">Подробнее</Link>
+										</div>
+									</div>
+
+									<div className="card card-raids card-raids-war-within">
+										<Link to="raids/war-within">
+											<img src={WarWithinCardImg} className="card-img card-img-raids" alt="The War Within" />
+										</Link>
+										<div className="card-body">
+											<Link className="card-link" to="raids/war-within">
+												<h3 className="card-title card-title-raids card-title-raids-war-within">The War Within</h3>
+											</Link>
+											<p className="card-text card-text-raids card-text-raids-war-within">Закажите гарантированное прохождение любого рейда из дополнения <span className="card-text-raids-war-within_color">The War Within</span></p>
+										</div>
+										<div className="card-footer d-flex justify-content-between align-items-center">
+											<p className="card-price card-price-raids card-price-raids-war-within">от 600<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="raids/war-within" className="card-btn card-btn-raids card-btn-raids-war-within">Подробнее</Link>
+										</div>
+									</div>
+
+									<div className="card card-raids card-raids-midnight">
+										<Link to="raids/midnight">
+											<img src={MidnightCardImg} className="card-img card-img-raids" alt="Midnight" />
+										</Link>
+										<div className="card-body">
+											<Link className="card-link" to="raids/midnight">
+												<h3 className="card-title card-title-raids card-title-raids-midnight">Midnight</h3>
+											</Link>
+											<p className="card-text card-text-raids card-text-raids-midnight">Закажите гарантированное прохождение любого рейда из дополнения <span className="card-text-raids-midnight_color">Midnight</span></p>
+										</div>
+										<div className="card-footer d-flex justify-content-between align-items-center">
+											<p className="card-price card-price-raids card-price-raids-midnight">от 800<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="raids/midnight" className="card-btn card-btn-raids card-btn-raids-midnight">Подробнее</Link>
+										</div>
+									</div>
+
+									<div className="card card-raids card-raids-last-titan">
+										<Link to="raids/last-titan">
+											<img src={LastTitanCardImg} className="card-img card-img-raids" alt="The Last Titan" />
+										</Link>
+										<div className="card-body">
+											<Link className="card-link" to="raids/last-titan">
+												<h3 className="card-title card-title-raids card-title-raids-last-titan">The Last Titan</h3>
+											</Link>
+											<p className="card-text card-text-raids card-text-raids-last-titan">Закажите гарантированное прохождение любого рейда из дополнения <span className="card-text-raids-last-titan_color">The Last Titan</span></p>
+										</div>
+										<div className="card-footer d-flex justify-content-between align-items-center">
+											<p className="card-price card-price-raids card-price-raids-last-titan">от 1000<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="raids/last-titan" className="card-btn card-btn-raids card-btn-raids-last-titan">Подробнее</Link>
+										</div>
+									</div>
+								</div>
+							</div>
+
 
 
 

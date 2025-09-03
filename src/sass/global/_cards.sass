@@ -137,9 +137,21 @@
 			&:hover
 				box-shadow: 0 0 2px 5px $shadowlandsRaidsCardHoverShadow
 		&-dragonflight
-			background: $dragonFlightRaidsBg
+			background: $dragonflightRaidsBg
 			&:hover
-				box-shadow: 0 0 2px 5px $dragonFlightRaidsCardHoverShadow
+				box-shadow: 0 0 2px 5px $dragonflightRaidsCardHoverShadow
+		&-war-within
+			background: $warWithinRaidsBg
+			&:hover
+				box-shadow: 0 0 2px 5px $warWithinRaidsCardHoverShadow
+		&-midnight
+			background: $midnightRaidsBg
+			&:hover
+				box-shadow: 0 0 2px 5px $midnightRaidsCardHoverShadow
+		&-last-titan
+			background: $lastTitanRaidsBg
+			&:hover
+				box-shadow: 0 0 2px 5px $lastTitanRaidsCardHoverShadow
 	&-lvl-up
 		background: $lvlUpBg
 		&:hover
@@ -243,25 +255,31 @@
 	&-raids
 		color: $defaultColor
 		&-classic
-			color: $classicRaidsCardTitle
+			color: $classicRaidsColor
 		&-burning-crusade
-			color: $burningCrusadeRaidsCardTitle
+			color: $burningCrusadeRaidsColor
 		&-wrath-of-the-lich-king
-			color: $wrathOfTheLichKingRaidsCardTitle
+			color: $wrathOfTheLichKingRaidsColor
 		&-cataclysm
-			color: $cataclysmRaidsCardTitle
+			color: $cataclysmRaidsColor
 		&-mists-of-pandaria
-			color: $mistsOfPandariaRaidsCardTitle
+			color: $mistsOfPandariaRaidsColor
 		&-warlord-of-draenor
-			color: $warlordOfDraenorRaidsCardTitle
+			color: $warlordOfDraenorRaidsColor
 		&-legion
-			color: $legionRaidsCardTitle
+			color: $legionRaidsColor
 		&-battle-for-azeroth
-			color: $battleForAzerothRaidsCardTitle
+			color: $battleForAzerothRaidsColor
 		&-shadowlands
-			color: $shadowlandsRaidsCardTitle
+			color: $shadowlandsRaidsColor
 		&-dragonflight
-			color: $dragonflightRaidsCardTitle
+			color: $dragonflightRaidsColor
+		&-war-within
+			color: $warWithinRaidsColor
+		&-midnight
+			color: $midnightRaidsColor
+		&-last-titan
+			color: $lastTitanRaidsColor
 	&-lvl-up
 		color: $lvlUpCardTitle
 	&-achievements
@@ -331,45 +349,57 @@
 	&-raids
 		color: $defaultColor
 		&-classic
-			color: $classicRaidsCardText
+			color: $classicRaidsTextColor
 			&_color
-				color: $classicRaidsCardTextSpan
+				color: $classicRaidsColor
 		&-burning-crusade
-			color: $burningCrusadeRaidsCardText
+			color: $burningCrusadeRaidsTextColor
 			&_color
-				color: $burningCrusadeRaidsCardTextSpan
+				color: $burningCrusadeRaidsColor
 		&-wrath-of-the-lich-king
-			color: $wrathOfTheLichKingRaidsCardText
+			color: $wrathOfTheLichKingRaidsTextColor
 			&_color
-				color: $wrathOfTheLichKingRaidsCardTextSpan
+				color: $wrathOfTheLichKingRaidsColor
 		&-cataclysm
-			color: $cataclysmRaidsCardText
+			color: $cataclysmRaidsTextColor
 			&_color
-				color: $cataclysmRaidsCardTextSpan
+				color: $cataclysmRaidsColor
 		&-mists-of-pandaria
-			color: $mistsOfPandariaRaidsCardText
+			color: $mistsOfPandariaRaidsTextColor
 			&_color
-				color: $mistsOfPandariaRaidsCardTextSpan
+				color: $mistsOfPandariaRaidsColor
 		&-warlord-of-draenor
-			color: $warlordOfDraenorRaidsCardText
+			color: $warlordOfDraenorRaidsTextColor
 			&_color
-				color: $warlordOfDraenorRaidsCardTextSpan
+				color: $warlordOfDraenorRaidsColor
 		&-legion
-			color: $legionRaidsCardText
+			color: $legionRaidsTextColor
 			&_color
-				color: $legionRaidsCardTextSpan
+				color: $legionRaidsColor
 		&-battle-for-azeroth
-			color: $battleForAzerothRaidsCardText
+			color: $battleForAzerothRaidsTextColor
 			&_color
-				color: $battleForAzerothRaidsCardTextSpan
+				color: $battleForAzerothRaidsColor
 		&-shadowlands
-			color: $shadowlandsRaidsCardText
+			color: $shadowlandsRaidsTextColor
 			&_color
-				color: $shadowlandsRaidsCardTextSpan
+				color: $shadowlandsRaidsColor
 		&-dragonflight
-			color: $dragonflightRaidsCardText
+			color: $dragonflightRaidsTextColor
 			&_color
-				color: $dragonflightRaidsCardTextSpan
+				color: $dragonflightRaidsColor
+		&-war-within
+			color: $warWithinRaidsTextColor
+			&_color
+				color: $warWithinRaidsColor
+		&-midnight
+			color: $midnightRaidsTextColor
+			&_color
+				color: $midnightRaidsColor
+		&-last-titan
+			color: $lastTitanRaidsTextColor
+			&_color
+				color: $lastTitanRaidsColor
 	&-achievements
 		color: $achievementsColor
 	&-buy
@@ -434,6 +464,33 @@
 		color: $goldAllianceColor
 	&-pvp
 		color: $pvpColor
+	&-raids
+		&-classic
+			color: $classicRaidsColor
+		&-burning-crusade
+			color: $burningCrusadeRaidsColor
+		&-wrath-of-the-lich-king
+			color: $wrathOfTheLichKingRaidsColor
+		&-cataclysm
+			color: $cataclysmRaidsColor
+		&-mists-of-pandaria
+			color: $mistsOfPandariaRaidsColor
+		&-warlord-of-draenor
+			color: $warlordOfDraenorRaidsColor
+		&-legion
+			color: $legionRaidsColor
+		&-battle-for-azeroth
+			color: $battleForAzerothRaidsColor
+		&-shadowlands
+			color: $shadowlandsRaidsColor
+		&-dragonflight
+			color: $dragonflightRaidsColor
+		&-war-within
+			color: $warWithinRaidsColor
+		&-midnight
+			color: $midnightRaidsColor
+		&-last-titan
+			color: $lastTitanRaidsColor
 	&-achievements
 		color: $achievementsColor
 .card-btn
