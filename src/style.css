@@ -234,6 +234,45 @@ footer {
 .announcement__header_honour, .announcement__header_arena, .announcement__header_rbg, .announcement__subheader_honour, .announcement__subheader_arena, .announcement__subheader_rbg {
   color: #ff0033;
 }
+.announcement__header_сlassic, .announcement__subheader_сlassic {
+  color: #a75926;
+}
+.announcement__header_burning-crusade, .announcement__subheader_burning-crusade {
+  color: #7bed09;
+}
+.announcement__header_wrath-of-the-lich-king, .announcement__subheader_wrath-of-the-lich-king {
+  color: #00bfff;
+}
+.announcement__header_cataclysm, .announcement__subheader_cataclysm {
+  color: #ff4d00;
+}
+.announcement__header_mists-of-pandaria, .announcement__subheader_mists-of-pandaria {
+  color: #00ff7f;
+}
+.announcement__header_warlords-of-draenor, .announcement__subheader_warlords-of-draenor {
+  color: #a75926;
+}
+.announcement__header_legion, .announcement__subheader_legion {
+  color: #7bed09;
+}
+.announcement__header_battle-for-azeroth, .announcement__subheader_battle-for-azeroth {
+  color: #8b00ff;
+}
+.announcement__header_shadowlands, .announcement__subheader_shadowlands {
+  color: #92c5d1;
+}
+.announcement__header_dragonflight, .announcement__subheader_dragonflight {
+  color: #31dfcf;
+}
+.announcement__header_war-within, .announcement__subheader_war-within {
+  color: #fa6604;
+}
+.announcement__header_midnight, .announcement__subheader_midnight {
+  color: #1205c6;
+}
+.announcement__header_last-titan, .announcement__subheader_last-titan {
+  color: #fcd075;
+}
 .announcement__header_achievements, .announcement__subheader_achievements {
   color: #607d8b;
 }
@@ -258,33 +297,38 @@ footer {
   }
 }
 .announcement__subheader_main {
-  font-size: 64px;
+  font-size: 54px;
   color: #ffc107;
   text-transform: uppercase;
 }
+@media (max-width: 1170px) {
+  .announcement__subheader_main {
+    font-size: 46px;
+  }
+}
+@media (max-width: 1024px) {
+  .announcement__subheader_main {
+    font-size: 44px;
+  }
+}
 @media (max-width: 767.98px) {
-  .announcement__subheader_main {
-    font-size: 56px;
-  }
-}
-@media (max-width: 676px) {
-  .announcement__subheader_main {
-    font-size: 48px;
-  }
-}
-@media (max-width: 575.98px) {
   .announcement__subheader_main {
     font-size: 42px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 575.98px) {
   .announcement__subheader_main {
     font-size: 36px;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 480px) {
   .announcement__subheader_main {
     font-size: 32px;
+  }
+}
+@media (max-width: 425px) {
+  .announcement__subheader_main {
+    font-size: 28px;
   }
 }
 .announcement__text {
@@ -468,6 +512,45 @@ footer {
 }
 .promo__raitings_rbg {
   background: url("/src/assets/img/pvp/bg/rbg.png") no-repeat center/contain;
+}
+.promo__raitings_сlassic {
+  background: url("/src/assets/img/raids/bg/temple-of-ahnqiraj.jpg") no-repeat center/contain;
+}
+.promo__raitings_burning-crusade {
+  background: url("/src/assets/img/raids/bg/black-temple.jpg") no-repeat center/contain;
+}
+.promo__raitings_wrath-of-the-lich-king {
+  background: url("/src/assets/img/raids/bg/icecrown-citadel.jpg") no-repeat center/contain;
+}
+.promo__raitings_cataclysm {
+  background: url("/src/assets/img/raids/bg/firelands.jpg") no-repeat center/contain;
+}
+.promo__raitings_mists-of-pandaria {
+  background: url("/src/assets/img/raids/bg/throne-of-thunder.jpg") no-repeat center/contain;
+}
+.promo__raitings_warlords-of-draenor {
+  background: url("/src/assets/img/raids/bg/blackrock-foundry.jpg") no-repeat center/contain;
+}
+.promo__raitings_legion {
+  background: url("/src/assets/img/raids/bg/antorus-the-burning-throne.jpg") no-repeat center/contain;
+}
+.promo__raitings_battle-for-azeroth {
+  background: url("/src/assets/img/raids/bg/nyalotha-the-waking-city.jpg") no-repeat center/contain;
+}
+.promo__raitings_shadowlands {
+  background: url("/src/assets/img/raids/bg/sanctum-of-domination.jpg") no-repeat center/contain;
+}
+.promo__raitings_dragonflight {
+  background: url("/src/assets/img/raids/bg/amirdrassil-the-dreams-hope.jpg") no-repeat center/contain;
+}
+.promo__raitings_war-within {
+  background: url("/src/assets/img/raids/bg/manaforge-omega.jpg") no-repeat center/contain;
+}
+.promo__raitings_midnight {
+  background: url("/src/assets/img/raids/bg/midnight.jpg") no-repeat center/contain;
+}
+.promo__raitings_last-titan {
+  background: url("/src/assets/img/raids/bg/last-titan.jpg") no-repeat center/contain;
 }
 .promo__raitings_quests {
   background: url("/src/assets/img/achievements/bg/quests.jpg") no-repeat center/contain;
@@ -820,10 +903,10 @@ footer {
 .card-raids-mists-of-pandaria:hover {
   box-shadow: 0 0 2px 5px #19dd8c;
 }
-.card-raids-warlord-of-draenor {
+.card-raids-warlords-of-draenor {
   background: linear-gradient(325deg, #854c27, transparent 30%, transparent 35%, #854c27, transparent);
 }
-.card-raids-warlord-of-draenor:hover {
+.card-raids-warlords-of-draenor:hover {
   box-shadow: 0 0 2px 5px #854c27;
 }
 .card-raids-legion {
@@ -885,11 +968,6 @@ footer {
 }
 .card-buy:hover {
   transform: scale(1);
-}
-@media (max-width: 1100px) {
-  .card {
-    width: 25rem;
-  }
 }
 @media (max-width: 991.98px) {
   .card {
@@ -1020,7 +1098,7 @@ footer {
   color: #673ab7;
 }
 .card-title-raids-classic {
-  color: #ffc107;
+  color: #a75926;
 }
 .card-title-raids-burning-crusade {
   color: #7bed09;
@@ -1034,8 +1112,8 @@ footer {
 .card-title-raids-mists-of-pandaria {
   color: #00ff7f;
 }
-.card-title-raids-warlord-of-draenor {
-  color: #ffc107;
+.card-title-raids-warlords-of-draenor {
+  color: #a75926;
 }
 .card-title-raids-legion {
   color: #7bed09;
@@ -1157,7 +1235,7 @@ footer {
   color: #854c27;
 }
 .card-text-raids-classic_color {
-  color: #ffc107;
+  color: #a75926;
 }
 .card-text-raids-burning-crusade {
   color: #158d32;
@@ -1183,11 +1261,11 @@ footer {
 .card-text-raids-mists-of-pandaria_color {
   color: #00ff7f;
 }
-.card-text-raids-warlord-of-draenor {
+.card-text-raids-warlords-of-draenor {
   color: #854c27;
 }
-.card-text-raids-warlord-of-draenor_color {
-  color: #ffc107;
+.card-text-raids-warlords-of-draenor_color {
+  color: #a75926;
 }
 .card-text-raids-legion {
   color: #158d32;
@@ -1324,7 +1402,7 @@ footer {
   color: #ff0033;
 }
 .card-price-raids-classic {
-  color: #ffc107;
+  color: #a75926;
 }
 .card-price-raids-burning-crusade {
   color: #7bed09;
@@ -1338,8 +1416,8 @@ footer {
 .card-price-raids-mists-of-pandaria {
   color: #00ff7f;
 }
-.card-price-raids-warlord-of-draenor {
-  color: #ffc107;
+.card-price-raids-warlords-of-draenor {
+  color: #a75926;
 }
 .card-price-raids-legion {
   color: #7bed09;

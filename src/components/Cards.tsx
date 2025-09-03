@@ -993,19 +993,19 @@ const Card = ({home, raidsArmourWarrior}) => {
 										</div>
 									</div>
 
-									<div className="card card-raids card-raids-warlord-of-draenor">
+									<div className="card card-raids card-raids-warlords-of-draenor">
 										<Link to="raids/warlords-of-draenor">
 											<img src={WarlordOfDraenorCardImg} className="card-img card-img-raids" alt="Warlords of Draenor" />
 										</Link>
 										<div className="card-body">
 											<Link className="card-link" to="raids/warlords-of-draenor">
-												<h3 className="card-title card-title-raids card-title-raids-warlord-of-draenor">Warlords of Draenor</h3>
+												<h3 className="card-title card-title-raids card-title-raids-warlords-of-draenor">Warlords of Draenor</h3>
 											</Link>
-											<p className="card-text card-text-raids card-text-raids-warlord-of-draenor">Закажите гарантированное прохождение любого рейда из дополнения <span className="card-text-raids-warlord-of-draenor_color">Warlords of Draenor</span></p>
+											<p className="card-text card-text-raids card-text-raids-warlords-of-draenor">Закажите гарантированное прохождение любого рейда из дополнения <span className="card-text-raids-warlords-of-draenor_color">Warlords of Draenor</span></p>
 										</div>
 										<div className="card-footer d-flex justify-content-between align-items-center">
-											<p className="card-price card-price-raids card-price-raids-warlord-of-draenor">от 300<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
-											<Link to="raids/warlords-of-draenor" className="card-btn card-btn-raids card-btn-raids-warlord-of-draenor">Подробнее</Link>
+											<p className="card-price card-price-raids card-price-raids-warlords-of-draenor">от 300<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="raids/warlords-of-draenor" className="card-btn card-btn-raids card-btn-raids-warlords-of-draenor">Подробнее</Link>
 										</div>
 									</div>
 

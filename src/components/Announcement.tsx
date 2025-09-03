@@ -98,6 +98,45 @@ const Announcement = ({ home, warrior, druid, priest, mage, monk, hunter, demonH
 							rbg
 								? "announcement__header announcement__header_rbg"
 								:
+							сlassic
+								? "announcement__header announcement__header_сlassic"
+								:
+							burningCrusade
+								? "announcement__header announcement__header_burning-crusade"
+								:
+							wrathOfTheLichKing
+								? "announcement__header announcement__header_wrath-of-the-lich-king"
+								:
+							cataclysm
+								? "announcement__header announcement__header_cataclysm"
+								:
+							mistsOfPandaria
+								? "announcement__header announcement__header_mists-of-pandaria"
+								:
+							warlordsOfDraenor
+								? "announcement__header announcement__header_warlords-of-draenor"
+								:
+							legion
+								? "announcement__header announcement__header_legion"
+								:
+							battleForAzeroth
+								? "announcement__header announcement__header_battle-for-azeroth"
+								:
+							shadowlands
+								? "announcement__header announcement__header_shadowlands"
+								:
+							dragonflight
+								? "announcement__header announcement__header_dragonflight"
+								:
+							warWithin
+								? "announcement__header announcement__header_war-within"
+								:
+							midnight
+								? "announcement__header announcement__header_midnight"
+								:
+							lastTitan
+								? "announcement__header announcement__header_last-titan"
+								:
 							achievements
 								? "announcement__header announcement__header_achievements"
 								: "announcement__header"
@@ -332,8 +371,8 @@ const Announcement = ({ home, warrior, druid, priest, mage, monk, hunter, demonH
 								: "World of Warcraft"
 						}
 					</h1>
-					<h2 className="announcement__header text-center">WorldSoul Saga</h2>
-					<h3 className="announcement__subheader announcement__subheader_main text-center">Великое приключение длиной в 20 лет</h3>
+					{ home && <h2 className="announcement__header text-center">WorldSoul Saga</h2> }
+					{ home && <h3 className="announcement__subheader announcement__subheader_main text-center">Великое приключение длиной в 20 лет</h3> }
 					<h3 className={`${
 						home
 							? "announcement__subheader announcement__subheader_main"

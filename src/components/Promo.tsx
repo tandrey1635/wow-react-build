@@ -172,6 +172,45 @@ const Promo = ({ warrior, druid, priest, mage, monk, hunter, demonHunter, paladi
 						rbg
 							? "promo__raitings promo__raitings_rbg"
 							:
+						сlassic
+							? "promo__raitings promo__raitings_сlassic"
+							:
+						burningCrusade
+							? "promo__raitings promo__raitings_burning-crusade"
+							:
+						wrathOfTheLichKing
+							? "promo__raitings promo__raitings_wrath-of-the-lich-king"
+							:
+						cataclysm
+							? "promo__raitings promo__raitings_cataclysm"
+							:
+						mistsOfPandaria
+							? "promo__raitings promo__raitings_mists-of-pandaria"
+							:
+						warlordsOfDraenor
+							? "promo__raitings promo__raitings_warlords-of-draenor"
+							:
+						legion
+							? "promo__raitings promo__raitings_legion"
+							:
+						battleForAzeroth
+							? "promo__raitings promo__raitings_battle-for-azeroth"
+							:
+						shadowlands
+							? "promo__raitings promo__raitings_shadowlands"
+							:
+						dragonflight
+							? "promo__raitings promo__raitings_dragonflight"
+							:
+						warWithin
+							? "promo__raitings promo__raitings_war-within"
+							:
+						midnight
+							? "promo__raitings promo__raitings_midnight"
+							:
+						lastTitan
+							? "promo__raitings promo__raitings_last-titan"
+							:
 						quests
 							? "promo__raitings promo__raitings_quests"
 							:

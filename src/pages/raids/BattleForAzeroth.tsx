@@ -18,7 +18,7 @@ const BattleForAzeroth = () => {
 				<Main>
 					<h1 style={{fontSize: 120}} className="text-center text-danger">В разработке</h1>
 					<Announcement battleForAzeroth />
-					<Promo />
+					<Promo battleForAzeroth />
 				</Main>
 				<Footer />
 				<ArrowUp />

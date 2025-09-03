@@ -69,6 +69,32 @@
 			color: $defaultColor
 		&_honour, &_arena, &_rbg
 			color: $pvpColor
+		&_сlassic
+			color: $classicRaidsColor
+		&_burning-crusade
+			color: $burningCrusadeRaidsColor
+		&_wrath-of-the-lich-king
+			color: $wrathOfTheLichKingRaidsColor
+		&_cataclysm
+			color: $cataclysmRaidsColor
+		&_mists-of-pandaria
+			color: $mistsOfPandariaRaidsColor
+		&_warlords-of-draenor
+			color: $warlordsOfDraenorRaidsColor
+		&_legion
+			color: $legionRaidsColor
+		&_battle-for-azeroth
+			color: $battleForAzerothRaidsColor
+		&_shadowlands
+			color: $shadowlandsRaidsColor
+		&_dragonflight
+			color: $dragonflightRaidsColor
+		&_war-within
+			color: $warWithinRaidsColor
+		&_midnight
+			color: $midnightRaidsColor
+		&_last-titan
+			color: $lastTitanRaidsColor
 		&_achievements
 			color: $achievementsColor
 	&__subheader
@@ -82,19 +108,21 @@
 		@media ( max-width: 425px )
 			font-size: 22px
 		&_main
-			font-size: 64px
+			font-size: 54px
 			color: $textColor
 			text-transform: uppercase
+			@media ( max-width: 1170px )
+				font-size: 46px
+			@media ( max-width: 1024px )
+				font-size: 44px
 			@media ( max-width: 767.98px )
-				font-size: 56px
-			@media ( max-width: 676px )
-				font-size: 48px
-			@media ( max-width: 575.98px )
 				font-size: 42px
-			@media ( max-width: 480px )
+			@media ( max-width: 575.98px )
 				font-size: 36px
-			@media ( max-width: 425px )
+			@media ( max-width: 480px )
 				font-size: 32px
+			@media ( max-width: 425px )
+				font-size: 28px
 	&__text
 		margin-top: 20px
 		font-size: 32px

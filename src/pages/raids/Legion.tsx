@@ -18,7 +18,7 @@ const Legion = () => {
 				<Main>
 					<h1 style={{fontSize: 120}} className="text-center text-danger">В разработке</h1>
 					<Announcement legion />
-					<Promo />
+					<Promo legion />
 				</Main>
 				<Footer />
 				<ArrowUp />
