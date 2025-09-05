@@ -17,7 +17,7 @@ const Jewelcrafting = () => {
 				<Header />
 				<Main>
 					<h1 style={{fontSize: 120}} className="text-center text-danger">В разработке</h1>
-					<Announcement jewelcrafting />
+					<Announcement professions jewelcrafting />
 					<Promo jewelcrafting />
 				</Main>
 				<Footer />

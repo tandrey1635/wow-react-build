@@ -70,6 +70,12 @@ const Card = ({home, raidsArmourWarrior}) => {
 	const RbgCardImg = `${basePathImg}/pvp/bg/rbg.png`
 
 
+	/* Фото подземелья гл стр */
+	const Mythic5CardImg = `${basePathImg}/dungeons/bg/mythic-5.jpg`
+	const Mythic10CardImg = `${basePathImg}/dungeons/bg/mythic-10.jpg`
+	const Mythic15CardImg = `${basePathImg}/dungeons/bg/mythic-15.jpg`
+
+
 	/* Фото рейды гл стр */
 	const ClassicCardImg = `${basePathImg}/raids/bg/temple-of-ahnqiraj.jpg`
 	const BurningCrusadeCardImg = `${basePathImg}/raids/bg/black-temple.jpg`
@@ -84,6 +90,7 @@ const Card = ({home, raidsArmourWarrior}) => {
 	const WarWithinCardImg = `${basePathImg}/raids/bg/manaforge-omega.jpg`
 	const MidnightCardImg = `${basePathImg}/raids/bg/midnight.jpg`
 	const LastTitanCardImg = `${basePathImg}/raids/bg/last-titan.jpg`
+
 
 
 
@@ -343,7 +350,7 @@ const Card = ({home, raidsArmourWarrior}) => {
 											<Link className="card-link" to="weapons/one-handed">
 												<h3 className="card-title card-title-weapons card-title-weapons-one-handed">Одноручное Оружие</h3>
 											</Link>
-											<p className="card-text card-text-weapons card-text-weapons-one-handed">Закажите любое одноручное оружие на выбор</p>
+											<p className="card-text card-text-weapons card-text-weapons-one-handed">Закажите любое одноручное оружие</p>
 										</div>
 										<div className="card-footer d-flex justify-content-between align-items-center">
 											<p className="card-price card-price-weapons card-price-weapons-one-handed">от 300<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
@@ -359,7 +366,7 @@ const Card = ({home, raidsArmourWarrior}) => {
 											<Link className="card-link" to="weapons/two-handed">
 												<h3 className="card-title card-title-weapons card-title-weapons-two-handed">Двуручное Оружие</h3>
 											</Link>
-											<p className="card-text card-text-weapons card-text-weapons-two-handed">Закажите любое двуручное оружие на выбор</p>
+											<p className="card-text card-text-weapons card-text-weapons-two-handed">Закажите любое двуручное оружие</p>
 										</div>
 										<div className="card-footer d-flex justify-content-between align-items-center">
 											<p className="card-price card-price-weapons card-price-weapons-two-handed">от 300<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
@@ -375,7 +382,7 @@ const Card = ({home, raidsArmourWarrior}) => {
 											<Link className="card-link" to="weapons/range">
 												<h3 className="card-title card-title-weapons card-title-weapons-range">Оружие дальнего боя</h3>
 											</Link>
-											<p className="card-text card-text-weapons card-text-weapons-range">Закажите любое оружие дальнего боя на выбор</p>
+											<p className="card-text card-text-weapons card-text-weapons-range">Закажите любое оружие дальнего боя</p>
 										</div>
 										<div className="card-footer d-flex justify-content-between align-items-center">
 											<p className="card-price card-price-weapons card-price-weapons-range">от 300<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
@@ -906,9 +913,58 @@ const Card = ({home, raidsArmourWarrior}) => {
 								</div>
 							</div>
 
+							{/* Таб контент эпохальные подземелья */}
+							<div className="tab-pane fade show active mt-5" id="pills-dungeons">
+								<div className="card-box d-flex flex-wrap justify-content-center justify-content-xl-start">
+									<div className="card card-mythic card-mythic-5">
+										<Link to="dungeons/mythic5">
+											<img src={Mythic5CardImg} className="card-img card-img-mythic" alt="Эпохальные Подземелья М+5" />
+										</Link>
+										<div className="card-body">
+											<Link className="card-link" to="dungeons/mythic5">
+												<h3 className="card-title card-title-mythic card-title-mythic-10">Эпохальные Подземелья М+5</h3>
+											</Link>
+											<p className="card-text card-text-mythic card-text-mythic-10">Любые Эпохальные Подземелья Мythic+5 в таймер</p>
+										</div>
+										<div className="card-footer d-flex justify-content-between align-items-center">
+											<p className="card-price card-price-mythic price-mythic-10">от 300<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="dungeons/mythic5" className="card-btn card-btn-mythic card-btn-mythic-10">Подробнее</Link>
+										</div>
+									</div>
 
+									<div className="card card-mythic card-mythic-10">
+										<Link to="dungeons/mythic10">
+											<img src={Mythic10CardImg} className="card-img card-img-mythic" alt="Эпохальные Подземелья М+10" />
+										</Link>
+										<div className="card-body">
+											<Link className="card-link" to="dungeons/mythic10">
+												<h3 className="card-title card-title-mythic card-title-mythic-10">Эпохальные Подземелья М+10</h3>
+											</Link>
+											<p className="card-text card-text-mythic card-text-mythic-10">Любые Эпохальные Подземелья Мythic+10 в таймер</p>
+										</div>
+										<div className="card-footer d-flex justify-content-between align-items-center">
+											<p className="card-price card-price-mythic price-mythic-10">от 500<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="dungeons/mythic10" className="card-btn card-btn-mythic card-btn-mythic-10">Подробнее</Link>
+										</div>
+									</div>
 
-
+									<div className="card card-mythic card-mythic-15">
+										<Link to="dungeons/mythic15">
+											<img src={Mythic15CardImg} className="card-img card-img-mythic" alt="Эпохальные Подземелья М+15" />
+										</Link>
+										<div className="card-body">
+											<Link className="card-link" to="dungeons/mythic15">
+												<h3 className="card-title card-title-mythic card-title-mythic-15">Эпохальные Подземелья М+15</h3>
+											</Link>
+											<p className="card-text card-text-mythic card-text-mythic-15">Любые Эпохальные Подземелья Мythic+15 в таймер</p>
+										</div>
+										<div className="card-footer d-flex justify-content-between align-items-center">
+											<p className="card-price card-price-mythic price-mythic-15">от 1000<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="dungeons/mythic15" className="card-btn card-btn-mythic card-btn-mythic-15">Подробнее</Link>
+										</div>
+									</div>
+								</div>
+							</div>
 
 							{/* Таб контент рейды */}
 							<div className="tab-pane fade fade show active mt-5" id="pills-raids">

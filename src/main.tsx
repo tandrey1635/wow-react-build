@@ -83,6 +83,12 @@ import LastTitan  from "./pages/raids/LastTitan.tsx";
 
 
 
+import Mythic5  from "./pages/dungeons/Mythic+5.tsx";
+import Mythic10  from "./pages/dungeons/Mythic+10.tsx";
+import Mythic15  from "./pages/dungeons/Mythic+15.tsx";
+
+
+
 import Quests from "./pages/achievements/Quests.tsx";
 import Equipments from "./pages/achievements/Equipments.tsx";
 import Mounts from "./pages/achievements/Mounts.tsx";
@@ -170,6 +176,11 @@ createRoot(document.getElementById("root")!).render(
 				<Route path="pvp/honour" element={<Honour />} />
 				<Route path="pvp/arena" element={<Arena />} />
 				<Route path="pvp/rbg" element={<Rbg />} />
+
+
+				<Route path="dungeons/mythic5" element={<Mythic5 />} />
+				<Route path="dungeons/mythic10" element={<Mythic10 />} />
+				<Route path="dungeons/mythic15" element={<Mythic15 />} />
 
 
 				<Route path="raids/classic" element={<Classic />} />

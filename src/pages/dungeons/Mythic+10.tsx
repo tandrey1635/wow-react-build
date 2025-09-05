@@ -10,15 +10,15 @@ import Promo from "../../components/Promo";
 import Cards from "../../components/Cards";
 
 
-const Cooking = () => {
+const Mythic10 = () => {
 	return (
 		<>
 			<Wrapper>
 				<Header />
 				<Main>
 					<h1 style={{fontSize: 120}} className="text-center text-danger">В разработке</h1>
-					<Announcement professions cooking />
-					<Promo cooking />
+					<Announcement dungeons mythic10 />
+					<Promo mythic10 />
 				</Main>
 				<Footer />
 				<ArrowUp />
@@ -28,4 +28,4 @@ const Cooking = () => {
 }
 
 
-export default Cooking
+export default Mythic10

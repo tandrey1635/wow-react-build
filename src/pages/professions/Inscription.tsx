@@ -17,7 +17,7 @@ const Inscription = () => {
 				<Header />
 				<Main>
 					<h1 style={{fontSize: 120}} className="text-center text-danger">В разработке</h1>
-					<Announcement inscription />
+					<Announcement professions inscription />
 					<Promo inscription />
 				</Main>
 				<Footer />
