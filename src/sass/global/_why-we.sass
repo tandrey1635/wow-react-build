@@ -21,6 +21,8 @@
 	&__wrapper
 		border-radius: 50px
 		background: $whyWeBg
+		@media ( max-width: 425px )
+			border-radius: 30px
 	&__items
 		flex-shrink: 0
 		width: calc(100% / 6)
@@ -50,6 +52,8 @@
 		font-size: 16px
 		font-weight: 700
 		color: $secondColor
+		@media( max-width: 425px)
+			font-size: 14px
 	&__info
 		font-size: 20px
 		@media( max-width: 425px)

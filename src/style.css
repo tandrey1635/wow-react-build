@@ -1625,6 +1625,11 @@ footer {
   border-radius: 50px;
   background: #1f2249;
 }
+@media (max-width: 425px) {
+  .why__we__wrapper {
+    border-radius: 30px;
+  }
+}
 .why__we__items {
   flex-shrink: 0;
   width: 16.6666666667%;
@@ -1676,6 +1681,11 @@ footer {
   font-size: 16px;
   font-weight: 700;
   color: #9fa3e5;
+}
+@media (max-width: 425px) {
+  .why__we__text, .why__we__info {
+    font-size: 14px;
+  }
 }
 .why__we__info {
   font-size: 20px;
