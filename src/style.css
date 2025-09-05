@@ -1679,17 +1679,16 @@ footer {
 }
 .why__we__text, .why__we__info {
   font-size: 16px;
-  font-weight: 700;
   color: #9fa3e5;
 }
 @media (max-width: 425px) {
   .why__we__text, .why__we__info {
-    font-weight: normal;
     font-size: 14px;
   }
 }
 .why__we__info {
   font-size: 20px;
+  font-weight: 700;
 }
 @media (max-width: 425px) {
   .why__we__info {
