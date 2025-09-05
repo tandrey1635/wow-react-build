@@ -276,6 +276,9 @@ footer {
 .announcement__header_last-titan, .announcement__subheader_last-titan {
   color: #fcd075;
 }
+.announcement__header_lvl-up, .announcement__subheader_lvl-up {
+  color: #ffb300;
+}
 .announcement__header_achievements, .announcement__subheader_achievements {
   color: #607d8b;
 }
@@ -563,6 +566,15 @@ footer {
 }
 .promo__raitings_last-titan {
   background: url("/src/assets/img/raids/bg/last-titan.jpg") no-repeat center/contain;
+}
+.promo__raitings_lvl-up-base {
+  background: url("/src/assets/img/lvl-up/bg/lvl-up-base.png") no-repeat center/contain;
+}
+.promo__raitings_lvl-up-expert {
+  background: url("/src/assets/img/lvl-up/bg/lvl-up-expert.png") no-repeat center/contain;
+}
+.promo__raitings_lvl-up-master {
+  background: url("/src/assets/img/lvl-up/bg/lvl-up-master.png") no-repeat center/contain;
 }
 .promo__raitings_quests {
   background: url("/src/assets/img/achievements/bg/quests.jpg") no-repeat center/contain;
@@ -1149,7 +1161,7 @@ footer {
   color: #fcd075;
 }
 .card-title-lvl-up {
-  color: #8400ff;
+  color: #ffb300;
 }
 .card-title-achievements {
   color: #607d8b;
@@ -1321,6 +1333,9 @@ footer {
 .card-text-raids-last-titan_color {
   color: #fcd075;
 }
+.card-text-lvl-up {
+  color: #ffb300;
+}
 .card-text-achievements {
   color: #607d8b;
 }
@@ -1451,6 +1466,9 @@ footer {
 }
 .card-price-raids-last-titan {
   color: #fcd075;
+}
+.card-price-lvl-up {
+  color: #ffb300;
 }
 .card-price-achievements {
   color: #607d8b;

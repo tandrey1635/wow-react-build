@@ -83,6 +83,12 @@ import LastTitan  from "./pages/raids/LastTitan.tsx";
 
 
 
+import LvlUpBase  from "./pages/lvl-up/LvlUpBase.tsx";
+import LvlUpExpert  from "./pages/lvl-up/LvlUpExpert.tsx";
+import LvlUpMaster  from "./pages/lvl-up/LvlUpMaster.tsx";
+
+
+
 import Mythic5  from "./pages/dungeons/Mythic+5.tsx";
 import Mythic10  from "./pages/dungeons/Mythic+10.tsx";
 import Mythic15  from "./pages/dungeons/Mythic+15.tsx";
@@ -196,6 +202,11 @@ createRoot(document.getElementById("root")!).render(
 				<Route path="raids/war-within" element={<WarWithin />} />
 				<Route path="raids/midnight" element={<Midnight />} />
 				<Route path="raids/last-titan" element={<LastTitan />} />
+
+
+				<Route path="lvl-up/lvl-up-base" element={<LvlUpBase />} />
+				<Route path="lvl-up/lvl-up-expert" element={<LvlUpExpert />} />
+				<Route path="lvl-up/lvl-up-master" element={<LvlUpMaster />} />
 
 
 				<Route path="achievements/quests" element={<Quests />} />

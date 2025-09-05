@@ -93,6 +93,11 @@ const Card = ({home, raidsArmourWarrior}) => {
 
 
 
+	/* Фото подземелья гл стр */
+	const LvlUpBaseCardImg = `${basePathImg}/lvl-up/bg/lvl-up-base.png`
+	const LvlUpExpertCardImg = `${basePathImg}/lvl-up/bg/lvl-up-expert.png`
+	const LvlUpMasterCardImg = `${basePathImg}/lvl-up/bg/lvl-up-master.png`
+
 
 
 	/* Фото достижения гл стр */
@@ -1179,8 +1184,58 @@ const Card = ({home, raidsArmourWarrior}) => {
 								</div>
 							</div>
 
+							{/* Таб контент прокачка персонажей */}
+							<div className="tab-pane fade fade show active mt-5" id="pills-lvl-up">
+								<div className="card-box d-flex flex-wrap justify-content-center justify-content-xl-start">
+									<div className="card card-lvl-up">
+										<Link to="lvl-up/lvl-up-base">
+											<img src={LvlUpBaseCardImg} className="card-img card-img-lvl-up" alt="1-60 Уровень" />
+										</Link>
+										<div className="card-body">
+											<Link className="card-link" to="lvl-up/lvl-up-base">
+												<h3 className="card-title card-title-lvl-up">1-60 Уровень</h3>
+											</Link>
+											<p className="card-text card-text-lvl-up">Прокачка 1-60 уровень в The Last Titan. Экипировка 250 уровня. Отличный набор для начинающего искателя приключений</p>
+										</div>
+										<div className="card-footer d-flex justify-content-between align-items-center">
+											<p className="card-price card-price-lvl-up">от 300<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="lvl-up/lvl-up-base" className="card-btn card-btn-lvl-up">Подробнее</Link>
+										</div>
+									</div>
 
+									<div className="card card-lvl-up">
+										<Link to="lvl-up/lvl-up-expert">
+											<img src={LvlUpExpertCardImg} className="card-img card-img-lvl-up" alt="1-70 Уровень" />
+										</Link>
+										<div className="card-body">
+											<Link className="card-link" to="lvl-up/lvl-up-expert">
+												<h3 className="card-title card-title-lvl-up">1-70 Уровень</h3>
+											</Link>
+											<p className="card-text card-text-lvl-up">Прокачка 1-70 уровень в The Last Titan. Экипировка 500 уровня. Отличный набор для опытного искателя приключений</p>
+										</div>
+										<div className="card-footer d-flex justify-content-between align-items-center">
+											<p className="card-price card-price-lvl-up">от 500<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="lvl-up/lvl-up-expert" className="card-btn card-btn-lvl-up">Подробнее</Link>
+										</div>
+									</div>
 
+									<div className="card card-lvl-up">
+										<Link to="lvl-up/lvl-up-master">
+											<img src={LvlUpMasterCardImg} className="card-img card-img-lvl-up" alt="1-80 Уровень" />
+										</Link>
+										<div className="card-body">
+											<Link className="card-link" to="lvl-up/lvl-up-master">
+												<h3 className="card-title card-title-lvl-up">1-80 Уровень</h3>
+											</Link>
+											<p className="card-text card-text-lvl-up">Прокачка 1-80 уровень в The Last Titan. Экипировка 1000 уровня. Отличный набор для профессионального искателя приключений</p>
+										</div>
+										<div className="card-footer d-flex justify-content-between align-items-center">
+											<p className="card-price card-price-lvl-up">от 800<img className="dollar" src={dollarImg} alt={dollarAlt} /></p>
+											<Link to="lvl-up/lvl-up-master" className="card-btn card-btn-lvl-up">Подробнее</Link>
+										</div>
+									</div>
+								</div>
+							</div>
 
 							{/* Таб контент достижения */}
 							<div className="tab-pane fade fade show active mt-5" id="pills-achievements">
