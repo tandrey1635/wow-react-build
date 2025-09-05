@@ -849,6 +849,24 @@ footer {
 .card-weapons {
   background: linear-gradient(325deg, #673ab7, transparent 30%, transparent 35%, #673ab7, transparent);
 }
+.card-weapons-legendary {
+  background: linear-gradient(325deg, #ff8000, transparent 30%, transparent 35%, #ff8000, transparent);
+}
+.card-weapons-legendary:hover {
+  box-shadow: 0 0 2px 5px #ff8000;
+}
+.card-weapons-artefact {
+  background: linear-gradient(325deg, #d9c798, transparent 30%, transparent 35%, #d9c798, transparent);
+}
+.card-weapons-artefact:hover {
+  box-shadow: 0 0 2px 5px #d9c798;
+}
+.card-weapons-decorative {
+  background: linear-gradient(325deg, #dc3ef3, transparent 30%, transparent 35%, #dc3ef3, transparent);
+}
+.card-weapons-decorative:hover {
+  box-shadow: 0 0 2px 5px #dc3ef3;
+}
 .card-armors {
   background: linear-gradient(325deg, #673ab7, transparent 30%, transparent 35%, #673ab7, transparent);
 }
@@ -1231,6 +1249,15 @@ footer {
 .card-text-weapons {
   color: #8400ff;
 }
+.card-text-weapons-legendary {
+  color: #ff8000;
+}
+.card-text-weapons-artefact {
+  color: #d9c798;
+}
+.card-text-weapons-decorative {
+  color: #dc3ef3;
+}
 .card-text-armours {
   color: #8400ff;
 }
@@ -1404,6 +1431,15 @@ footer {
 .card-price-weapons {
   color: #8400ff;
 }
+.card-price-weapons-legendary {
+  color: #ff8000;
+}
+.card-price-weapons-artefact {
+  color: #d9c798;
+}
+.card-price-weapons-decorative {
+  color: #dc3ef3;
+}
 .card-price-armours {
   color: #8400ff;
 }
@@ -1547,43 +1583,107 @@ footer {
   text-align: center;
 }
 
+.why__we {
+  padding: 50px 0;
+}
+@media (max-width: 425px) {
+  .why__we {
+    padding: 32px 0;
+  }
+}
 .why__we__header {
-  text-align: center;
-  width: 185px;
-  color: #9fa3e5;
+  font-size: 64px;
+  color: #fff;
   font-weight: 700;
-  margin: 0 auto;
 }
-.why__we__items {
-  font-size: 14px;
-  font-weight: 400;
+@media (max-width: 767.98px) {
+  .why__we__header {
+    font-size: 56px;
+  }
 }
-.why__we__info {
+@media (max-width: 676px) {
+  .why__we__header {
+    font-size: 48px;
+  }
+}
+@media (max-width: 575.98px) {
+  .why__we__header {
+    font-size: 42px;
+  }
+}
+@media (max-width: 480px) {
+  .why__we__header {
+    font-size: 36px;
+  }
+}
+@media (max-width: 425px) {
+  .why__we__header {
+    font-size: 32px;
+  }
+}
+.why__we__wrapper {
   border-radius: 50px;
   background: #1f2249;
 }
-.why__we__list {
-  text-align: center;
-  width: 185px;
+.why__we__items {
+  flex-shrink: 0;
+  width: 16.6666666667%;
   color: #9fa3e5;
-  font-weight: 700;
   font-size: 18px;
-  margin: 0 auto;
+}
+@media (max-width: 991.98px) {
+  .why__we__items {
+    width: 100%;
+  }
 }
 .why__we__img {
   width: 60px;
   height: 60px;
-  display: flex;
-  margin: 0 auto;
-  margin-bottom: 30px;
 }
-.why__we__title, .why__we__text {
+@media (max-width: 425px) {
+  .why__we__img {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media (max-width: 375px) {
+  .why__we__img {
+    width: 45px;
+    height: 45px;
+  }
+}
+@media (max-width: 991.98px) {
+  .why__we__description {
+    width: 50%;
+  }
+}
+@media (max-width: 767.98px) {
+  .why__we__description {
+    width: 70%;
+  }
+}
+@media (max-width: 575.98px) {
+  .why__we__description {
+    width: 80%;
+  }
+}
+@media (max-width: 480px) {
+  .why__we__description {
+    width: 100%;
+  }
+}
+.why__we__text, .why__we__info {
+  font-size: 16px;
   font-weight: 700;
-  font-size: 17px;
-  text-align: center;
-  font-size: 14px;
-  color: #564fff;
-  font-weight: 400;
+  color: #9fa3e5;
+}
+.why__we__info {
+  font-size: 20px;
+}
+@media (max-width: 425px) {
+  .why__we__info {
+    font-size: 16px;
+  }
 }
 
 .footer {
